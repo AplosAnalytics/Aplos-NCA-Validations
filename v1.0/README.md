@@ -1,4 +1,4 @@
-# Aplos-NCA-Validations
+# Aplos-NCA-Validations v1.0
 
 The files in this repository are used by the validation protocol of Aplos NCA to confirm that the PK parameter calculations are accurate. 
 
@@ -21,8 +21,6 @@ For each test, there is an input data file, an analysis configuration file, and 
 * Configuration file: `test[nn]/config.json`
 * PK parameter results: `test[nn]/pk-results-expected-output.csv`
 
-The validation protocol for Aplos NCA will import the input dataset for the first test, analyze it using the configuration file, and then compare the results of the `pk-results.csv` file with the PK parameter results (`pk-results-expected-output.csv`) for the corresponding test. 
+The validation protocol for Aplos NCA will import the input dataset for the first test, analyze it using the configuration file, and then compare the results of the "pk-results.csv" file with the PK parameter results included here. 
 
-The compare tool, looks for exact matches for both text and numerical values.  
-- Text values are case sensitive.
-- Numeric values look for exact matches
+The relative difference for all numerical calculations will be compared, and any relative differences greater than 0.01% will be flagged as a test failure. If no relative differences are identified, the test will pass. Then this process will be repeated for the remaining 5 tests. If all 6 tests pass, then the Aplos NCA validation will report an overall pass in the validation report. If one or more tests fail, the Aplos NCA validation will report an overall failure.
