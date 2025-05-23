@@ -1,0 +1,719 @@
+subject,paramcd,value,kel_group,param,units
+1,AUC_all_lin,132.33925,0,Area under the curve all linear,ng/mL * hr
+1,AUC_all_lin_D,0.13233925,0,Dose normalized area under the curve all linear,ng/mL * hr / mg
+1,AUC_all_log,121.9721456275654,0,Area under the curve all linear up log down,ng/mL * hr
+1,AUC_all_log_D,0.12197214562756539,0,Dose normalized area under the curve all linear up log down,ng/mL * hr / mg
+1,AUC_last_lin,132.33925,0,Area under the curve last linear,ng/mL * hr
+1,AUC_last_lin_D,0.13233925,0,Dose normalized area under the curve last linear,ng/mL * hr / mg
+1,AUC_last_log,121.9721456275654,0,Area under the curve last linear up log down,ng/mL * hr
+1,AUC_last_log_D,0.12197214562756539,0,Dose normalized area under the curve last linear up log down,ng/mL * hr / mg
+1,AUMC_last_lin,426.67799999999994,0,Area under the moment curve last linear,ng/mL * hr * hr
+1,AUMC_last_log,421.64047489645225,0,Area under the moment curve last linear up log down  ,ng/mL * hr * hr
+1,Clast,0.181,0,Last measurable concentration,ng/mL
+1,Cmax,42.5,0,Maximum observed concentration,ng/mL
+1,Cmax_D,0.0425,0,Dose normalized maximum concentration,ng/mL / mg
+1,Cmin,0.149,0,Minimum observed concentration,ng/mL
+1,Conc_units,ng/mL,0,Concentration units,None
+1,Dose,1000,0,Dose,mg
+1,Dose_time,0,0,Time of Dose Administration,hr
+1,Dose_units,mg,0,Dose Units,None
+1,End_interval,24,0,End of dosing interval calculated as Dose_time + Tau,None
+1,Frequency,steady-state,0,Frequency,None
+1,Inf_dur,2,0,Infusion duration,hr
+1,Inf_end,2,0,Infusion end time,hr
+1,Inf_rate,500,0,Infusion rate,mg / hr
+1,Inf_start,0,0,Infusion start time,hr
+1,N_blq,0,0,Number of BLQ observations,None
+1,N_miss,0,0,Number of missing observations,None
+1,N_samp,12,0,Number of total observations,None
+1,Route,iv-infusion,0,Route,None
+1,Swing,284.23489932885906,0,Swing,None
+1,Tau,24,0,Tau,None
+1,Time_units,hr,0,Time units,None
+1,Tlast,24.0,0,Time of Clast,hr
+1,Tmax,1.5,0,Time of Cmax,hr
+1,Tmin,0.0,0,Time of Cmin,hr
+1,Acc_index,1.025515427807056,1,Accumulation index,None
+1,AUC_tau_lin,132.33925,1,Area under the curve tau linear,ng/mL * hr
+1,AUC_tau_lin_D,0.13233925,1,Dose normalized area under the curve tau linear,ng/mL * hr / mg
+1,AUC_tau_lin_extrap,0,1,Percent extrapolated area under the curve tau linear,%
+1,AUC_tau_log,121.9721456275654,1,Area under the curve tau linear up log down,ng/mL * hr
+1,AUC_tau_log_D,0.12197214562756539,1,Dose normalized area under the curve tau linear up log down,ng/mL * hr / mg
+1,AUC_tau_log_extrap,0,1,Percent extrapolated area under the curve tau linear up log down,%
+1,AUMC_tau_lin,426.67799999999994,1,Area under the moment curve tau linear,ng/mL * hr * hr
+1,AUMC_tau_log,421.64047489645225,1,Area under the moment curve tau linear up log down,ng/mL * hr * hr
+1,Cavg_lin,5.514135416666666,1,Average concentration Linear,ng/mL
+1,Cavg_log,5.082172734481891,1,Average concentration linear up log down,ng/mL
+1,CLss_lin,7.556337216660968,1,Clearance steady state linear,mg / (ng/mL * hr)
+1,CLss_log,8.198593169406397,1,Clearance steady state linear up log down,mg / (ng/mL * hr)
+1,Ctau,0.181,1,Concentration at time tau,ng/mL
+1,Fluct_lin,768.0442499107409,1,Percent fluctuation linear,%
+1,Fluct_log,833.3246863620728,1,Percent fluctuation linear up log down,%
+1,Fluct_tau_lin,767.4639232125014,1,Percent fluctuation tau linear,%
+1,Fluct_tau_log,832.6950344066626,1,Percent fluctuation tau linear up log down,%
+1,intercept,1.859066110693861,1,Terminal rate constant intercept,ln (ng/mL)
+1,kel,0.15390280584666394,1,Terminal rate constant,1 /hr
+1,kel_adjr2,0.7787772404452957,1,Adjusted r2 for terminal rate regression,None
+1,kel_low,16.0,1,Lower time point for terminal rate constant estimate,hr
+1,kel_n,3,1,Number of time points used for terminal rate constant,None
+1,kel_r2,0.8893886202226479,1,r2 for terminal rate regression,None
+1,kel_span,1.776278518191032,1,Span,None
+1,kel_thalf,4.503798203981674,1,Half-life,hr
+1,kel_upper,24.0,1,Upper time point for terminal rate constant estimate,hr
+1,MRT_last_lin,2.2241228509304682,1,Mean residence time last linear,hr
+1,MRT_last_log,2.456858717431323,1,Mean residence time last linear up log down,hr
+1,MRT_lin,2.2241228509304682,1,Mean residence time linear,hr
+1,MRT_log,2.456858717431323,1,Mean residence time linear up log down,hr
+1,Swing_Tau,233.80662983425415,1,Swing tau,None
+1,Vss_lin,16.80622227291199,1,Volume of distribution steady state linear,mg / ng/mL
+1,Vss_log,20.142785098929004,1,Volume of distribution steady state linear up log down,mg / ng/mL
+1,Vz_lin,49.09811211752357,1,Volume of distribution lambda z linear,mg / ng/mL
+1,Vz_log,53.27123910641888,1,Volume of distribution lambda z linear up log down,mg / ng/mL
+1,Acc_index,1.0208371535607295,2,Accumulation index,None
+1,AUC_tau_lin,132.33925,2,Area under the curve tau linear,ng/mL * hr
+1,AUC_tau_lin_D,0.13233925,2,Dose normalized area under the curve tau linear,ng/mL * hr / mg
+1,AUC_tau_lin_extrap,0,2,Percent extrapolated area under the curve tau linear,%
+1,AUC_tau_log,121.9721456275654,2,Area under the curve tau linear up log down,ng/mL * hr
+1,AUC_tau_log_D,0.12197214562756539,2,Dose normalized area under the curve tau linear up log down,ng/mL * hr / mg
+1,AUC_tau_log_extrap,0,2,Percent extrapolated area under the curve tau linear up log down,%
+1,AUMC_tau_lin,426.67799999999994,2,Area under the moment curve tau linear,ng/mL * hr * hr
+1,AUMC_tau_log,421.64047489645225,2,Area under the moment curve tau linear up log down,ng/mL * hr * hr
+1,Cavg_lin,5.514135416666666,2,Average concentration Linear,ng/mL
+1,Cavg_log,5.082172734481891,2,Average concentration linear up log down,ng/mL
+1,CLss_lin,7.556337216660968,2,Clearance steady state linear,mg / (ng/mL * hr)
+1,CLss_log,8.198593169406397,2,Clearance steady state linear up log down,mg / (ng/mL * hr)
+1,Ctau,0.181,2,Concentration at time tau,ng/mL
+1,Fluct_lin,768.0442499107409,2,Percent fluctuation linear,%
+1,Fluct_log,833.3246863620728,2,Percent fluctuation linear up log down,%
+1,Fluct_tau_lin,767.4639232125014,2,Percent fluctuation tau linear,%
+1,Fluct_tau_log,832.6950344066626,2,Percent fluctuation tau linear up log down,%
+1,intercept,2.0350424181984295,2,Terminal rate constant intercept,ln (ng/mL)
+1,kel,0.1621516952609406,2,Terminal rate constant,1 /hr
+1,kel_adjr2,0.9332948251473743,2,Adjusted r2 for terminal rate regression,None
+1,kel_low,12.0,2,Lower time point for terminal rate constant estimate,hr
+1,kel_n,4,2,Number of time points used for terminal rate constant,None
+1,kel_r2,0.9555298834315828,2,r2 for terminal rate regression,None
+1,kel_span,2.807225359496369,2,Span,None
+1,kel_thalf,4.274683526709399,2,Half-life,hr
+1,kel_upper,24.0,2,Upper time point for terminal rate constant estimate,hr
+1,MRT_last_lin,2.2241228509304682,2,Mean residence time last linear,hr
+1,MRT_last_log,2.456858717431323,2,Mean residence time last linear up log down,hr
+1,MRT_lin,2.2241228509304682,2,Mean residence time linear,hr
+1,MRT_log,2.456858717431323,2,Mean residence time linear up log down,hr
+1,Swing_Tau,233.80662983425415,2,Swing tau,None
+1,Vss_lin,16.80622227291199,2,Volume of distribution steady state linear,mg / ng/mL
+1,Vss_log,20.142785098929004,2,Volume of distribution steady state linear up log down,mg / ng/mL
+1,Vz_lin,46.60042070174491,2,Volume of distribution lambda z linear,mg / ng/mL
+1,Vz_log,50.56125473256949,2,Volume of distribution lambda z linear up log down,mg / ng/mL
+1,Acc_index,1.0199166796968357,3,Accumulation index,None
+1,AUC_tau_lin,132.33925,3,Area under the curve tau linear,ng/mL * hr
+1,AUC_tau_lin_D,0.13233925,3,Dose normalized area under the curve tau linear,ng/mL * hr / mg
+1,AUC_tau_lin_extrap,0,3,Percent extrapolated area under the curve tau linear,%
+1,AUC_tau_log,121.9721456275654,3,Area under the curve tau linear up log down,ng/mL * hr
+1,AUC_tau_log_D,0.12197214562756539,3,Dose normalized area under the curve tau linear up log down,ng/mL * hr / mg
+1,AUC_tau_log_extrap,0,3,Percent extrapolated area under the curve tau linear up log down,%
+1,AUMC_tau_lin,426.67799999999994,3,Area under the moment curve tau linear,ng/mL * hr * hr
+1,AUMC_tau_log,421.64047489645225,3,Area under the moment curve tau linear up log down,ng/mL * hr * hr
+1,Cavg_lin,5.514135416666666,3,Average concentration Linear,ng/mL
+1,Cavg_log,5.082172734481891,3,Average concentration linear up log down,ng/mL
+1,CLss_lin,7.556337216660968,3,Clearance steady state linear,mg / (ng/mL * hr)
+1,CLss_log,8.198593169406397,3,Clearance steady state linear up log down,mg / (ng/mL * hr)
+1,Ctau,0.181,3,Concentration at time tau,ng/mL
+1,Fluct_lin,768.0442499107409,3,Percent fluctuation linear,%
+1,Fluct_log,833.3246863620728,3,Percent fluctuation linear up log down,%
+1,Fluct_tau_lin,767.4639232125014,3,Percent fluctuation tau linear,%
+1,Fluct_tau_log,832.6950344066626,3,Percent fluctuation tau linear up log down,%
+1,intercept,2.071940729639893,3,Terminal rate constant intercept,ln (ng/mL)
+1,kel,0.16399661083301376,3,Terminal rate constant,1 /hr
+1,kel_adjr2,0.9701810470682753,3,Adjusted r2 for terminal rate regression,None
+1,kel_low,8.0,3,Lower time point for terminal rate constant estimate,hr
+1,kel_n,5,3,Number of time points used for terminal rate constant,None
+1,kel_r2,0.9776357853012065,3,r2 for terminal rate regression,None
+1,kel_span,3.785553554742179,3,Span,None
+1,kel_thalf,4.226594543869742,3,Half-life,hr
+1,kel_upper,24.0,3,Upper time point for terminal rate constant estimate,hr
+1,MRT_last_lin,2.2241228509304682,3,Mean residence time last linear,hr
+1,MRT_last_log,2.456858717431323,3,Mean residence time last linear up log down,hr
+1,MRT_lin,2.2241228509304682,3,Mean residence time linear,hr
+1,MRT_log,2.456858717431323,3,Mean residence time linear up log down,hr
+1,Swing_Tau,233.80662983425415,3,Swing tau,None
+1,Vss_lin,16.80622227291199,3,Volume of distribution steady state linear,mg / ng/mL
+1,Vss_log,20.142785098929004,3,Volume of distribution steady state linear up log down,mg / ng/mL
+1,Vz_lin,46.07617912515922,3,Volume of distribution lambda z linear,mg / ng/mL
+1,Vz_log,49.99245489136632,3,Volume of distribution lambda z linear up log down,mg / ng/mL
+1,Acc_index,1.0206071637282093,4,Accumulation index,None
+1,AUC_tau_lin,132.33925,4,Area under the curve tau linear,ng/mL * hr
+1,AUC_tau_lin_D,0.13233925,4,Dose normalized area under the curve tau linear,ng/mL * hr / mg
+1,AUC_tau_lin_extrap,0,4,Percent extrapolated area under the curve tau linear,%
+1,AUC_tau_log,121.9721456275654,4,Area under the curve tau linear up log down,ng/mL * hr
+1,AUC_tau_log_D,0.12197214562756539,4,Dose normalized area under the curve tau linear up log down,ng/mL * hr / mg
+1,AUC_tau_log_extrap,0,4,Percent extrapolated area under the curve tau linear up log down,%
+1,AUMC_tau_lin,426.67799999999994,4,Area under the moment curve tau linear,ng/mL * hr * hr
+1,AUMC_tau_log,421.64047489645225,4,Area under the moment curve tau linear up log down,ng/mL * hr * hr
+1,Cavg_lin,5.514135416666666,4,Average concentration Linear,ng/mL
+1,Cavg_log,5.082172734481891,4,Average concentration linear up log down,ng/mL
+1,CLss_lin,7.556337216660968,4,Clearance steady state linear,mg / (ng/mL * hr)
+1,CLss_log,8.198593169406397,4,Clearance steady state linear up log down,mg / (ng/mL * hr)
+1,Ctau,0.181,4,Concentration at time tau,ng/mL
+1,Fluct_lin,768.0442499107409,4,Percent fluctuation linear,%
+1,Fluct_log,833.3246863620728,4,Percent fluctuation linear up log down,%
+1,Fluct_tau_lin,767.4639232125014,4,Percent fluctuation tau linear,%
+1,Fluct_tau_log,832.6950344066626,4,Percent fluctuation tau linear up log down,%
+1,intercept,2.0452171765256453,4,Terminal rate constant intercept,ln (ng/mL)
+1,kel,0.16260475910831335,4,Terminal rate constant,1 /hr
+1,kel_adjr2,0.9809923529055029,4,Adjusted r2 for terminal rate regression,None
+1,kel_low,6.0,4,Lower time point for terminal rate constant estimate,hr
+1,kel_n,6,4,Number of time points used for terminal rate constant,None
+1,kel_r2,0.9847938823244023,4,r2 for terminal rate regression,None
+1,kel_span,4.222603432629147,4,Span,None
+1,kel_thalf,4.2627730231329215,4,Half-life,hr
+1,kel_upper,24.0,4,Upper time point for terminal rate constant estimate,hr
+1,MRT_last_lin,2.2241228509304682,4,Mean residence time last linear,hr
+1,MRT_last_log,2.456858717431323,4,Mean residence time last linear up log down,hr
+1,MRT_lin,2.2241228509304682,4,Mean residence time linear,hr
+1,MRT_log,2.456858717431323,4,Mean residence time linear up log down,hr
+1,Swing_Tau,233.80662983425415,4,Swing tau,None
+1,Vss_lin,16.80622227291199,4,Volume of distribution steady state linear,mg / ng/mL
+1,Vss_log,20.142785098929004,4,Volume of distribution steady state linear up log down,mg / ng/mL
+1,Vz_lin,46.4705784633744,4,Volume of distribution lambda z linear,mg / ng/mL
+1,Vz_log,50.42037646601227,4,Volume of distribution lambda z linear up log down,mg / ng/mL
+1,Acc_index,1.0130078308992236,5,Accumulation index,None
+1,AUC_tau_lin,132.33925,5,Area under the curve tau linear,ng/mL * hr
+1,AUC_tau_lin_D,0.13233925,5,Dose normalized area under the curve tau linear,ng/mL * hr / mg
+1,AUC_tau_lin_extrap,0,5,Percent extrapolated area under the curve tau linear,%
+1,AUC_tau_log,121.9721456275654,5,Area under the curve tau linear up log down,ng/mL * hr
+1,AUC_tau_log_D,0.12197214562756539,5,Dose normalized area under the curve tau linear up log down,ng/mL * hr / mg
+1,AUC_tau_log_extrap,0,5,Percent extrapolated area under the curve tau linear up log down,%
+1,AUMC_tau_lin,426.67799999999994,5,Area under the moment curve tau linear,ng/mL * hr * hr
+1,AUMC_tau_log,421.64047489645225,5,Area under the moment curve tau linear up log down,ng/mL * hr * hr
+1,Cavg_lin,5.514135416666666,5,Average concentration Linear,ng/mL
+1,Cavg_log,5.082172734481891,5,Average concentration linear up log down,ng/mL
+1,CLss_lin,7.556337216660968,5,Clearance steady state linear,mg / (ng/mL * hr)
+1,CLss_log,8.198593169406397,5,Clearance steady state linear up log down,mg / (ng/mL * hr)
+1,Ctau,0.181,5,Concentration at time tau,ng/mL
+1,Fluct_lin,768.0442499107409,5,Percent fluctuation linear,%
+1,Fluct_log,833.3246863620728,5,Percent fluctuation linear up log down,%
+1,Fluct_tau_lin,767.4639232125014,5,Percent fluctuation tau linear,%
+1,Fluct_tau_log,832.6950344066626,5,Percent fluctuation tau linear up log down,%
+1,intercept,2.3895440852472056,5,Terminal rate constant intercept,ln (ng/mL)
+1,kel,0.18146365340225037,5,Terminal rate constant,1 /hr
+1,kel_adjr2,0.9563753739398859,5,Adjusted r2 for terminal rate regression,None
+1,kel_low,4.0,5,Lower time point for terminal rate constant estimate,hr
+1,kel_n,7,5,Number of time points used for terminal rate constant,None
+1,kel_r2,0.963646144949905,5,r2 for terminal rate regression,None
+1,kel_span,5.235934257300406,5,Span,None
+1,kel_thalf,3.8197576625631267,5,Half-life,hr
+1,kel_upper,24.0,5,Upper time point for terminal rate constant estimate,hr
+1,MRT_last_lin,2.2241228509304682,5,Mean residence time last linear,hr
+1,MRT_last_log,2.456858717431323,5,Mean residence time last linear up log down,hr
+1,MRT_lin,2.2241228509304682,5,Mean residence time linear,hr
+1,MRT_log,2.456858717431323,5,Mean residence time linear up log down,hr
+1,Swing_Tau,233.80662983425415,5,Swing tau,None
+1,Vss_lin,16.80622227291199,5,Volume of distribution steady state linear,mg / ng/mL
+1,Vss_log,20.142785098929004,5,Volume of distribution steady state linear up log down,mg / ng/mL
+1,Vz_lin,41.64105083848852,5,Volume of distribution lambda z linear,mg / ng/mL
+1,Vz_log,45.180359899580445,5,Volume of distribution lambda z linear up log down,mg / ng/mL
+1,Acc_index,1.0052712409716995,6,Accumulation index,None
+1,AUC_tau_lin,132.33925,6,Area under the curve tau linear,ng/mL * hr
+1,AUC_tau_lin_D,0.13233925,6,Dose normalized area under the curve tau linear,ng/mL * hr / mg
+1,AUC_tau_lin_extrap,0,6,Percent extrapolated area under the curve tau linear,%
+1,AUC_tau_log,121.9721456275654,6,Area under the curve tau linear up log down,ng/mL * hr
+1,AUC_tau_log_D,0.12197214562756539,6,Dose normalized area under the curve tau linear up log down,ng/mL * hr / mg
+1,AUC_tau_log_extrap,0,6,Percent extrapolated area under the curve tau linear up log down,%
+1,AUMC_tau_lin,426.67799999999994,6,Area under the moment curve tau linear,ng/mL * hr * hr
+1,AUMC_tau_log,421.64047489645225,6,Area under the moment curve tau linear up log down,ng/mL * hr * hr
+1,Cavg_lin,5.514135416666666,6,Average concentration Linear,ng/mL
+1,Cavg_log,5.082172734481891,6,Average concentration linear up log down,ng/mL
+1,CLss_lin,7.556337216660968,6,Clearance steady state linear,mg / (ng/mL * hr)
+1,CLss_log,8.198593169406397,6,Clearance steady state linear up log down,mg / (ng/mL * hr)
+1,Ctau,0.181,6,Concentration at time tau,ng/mL
+1,Fluct_lin,768.0442499107409,6,Percent fluctuation linear,%
+1,Fluct_log,833.3246863620728,6,Percent fluctuation linear up log down,%
+1,Fluct_tau_lin,767.4639232125014,6,Percent fluctuation tau linear,%
+1,Fluct_tau_log,832.6950344066626,6,Percent fluctuation tau linear up log down,%
+1,intercept,3.0337613905951826,6,Terminal rate constant intercept,ln (ng/mL)
+1,kel,0.21878111926082225,6,Terminal rate constant,1 /hr
+1,kel_adjr2,0.8803315839214751,6,Adjusted r2 for terminal rate regression,None
+1,kel_low,2.0,6,Lower time point for terminal rate constant estimate,hr
+1,kel_n,8,6,Number of time points used for terminal rate constant,None
+1,kel_r2,0.897427071932693,6,r2 for terminal rate regression,None
+1,kel_span,6.943957587549953,6,Span,None
+1,kel_thalf,3.168222115792371,6,Half-life,hr
+1,kel_upper,24.0,6,Upper time point for terminal rate constant estimate,hr
+1,MRT_last_lin,2.2241228509304682,6,Mean residence time last linear,hr
+1,MRT_last_log,2.456858717431323,6,Mean residence time last linear up log down,hr
+1,MRT_lin,2.2241228509304682,6,Mean residence time linear,hr
+1,MRT_log,2.456858717431323,6,Mean residence time linear up log down,hr
+1,Swing_Tau,233.80662983425415,6,Swing tau,None
+1,Vss_lin,16.80622227291199,6,Volume of distribution steady state linear,mg / ng/mL
+1,Vss_log,20.142785098929004,6,Volume of distribution steady state linear up log down,mg / ng/mL
+1,Vz_lin,34.53834244102482,6,Volume of distribution lambda z linear,mg / ng/mL
+1,Vz_log,37.47395203528672,6,Volume of distribution lambda z linear up log down,mg / ng/mL
+1,Acc_index,1.0034479414875999,7,Accumulation index,None
+1,AUC_tau_lin,132.33925,7,Area under the curve tau linear,ng/mL * hr
+1,AUC_tau_lin_D,0.13233925,7,Dose normalized area under the curve tau linear,ng/mL * hr / mg
+1,AUC_tau_lin_extrap,0,7,Percent extrapolated area under the curve tau linear,%
+1,AUC_tau_log,121.9721456275654,7,Area under the curve tau linear up log down,ng/mL * hr
+1,AUC_tau_log_D,0.12197214562756539,7,Dose normalized area under the curve tau linear up log down,ng/mL * hr / mg
+1,AUC_tau_log_extrap,0,7,Percent extrapolated area under the curve tau linear up log down,%
+1,AUMC_tau_lin,426.67799999999994,7,Area under the moment curve tau linear,ng/mL * hr * hr
+1,AUMC_tau_log,421.64047489645225,7,Area under the moment curve tau linear up log down,ng/mL * hr * hr
+1,Cavg_lin,5.514135416666666,7,Average concentration Linear,ng/mL
+1,Cavg_log,5.082172734481891,7,Average concentration linear up log down,ng/mL
+1,CLss_lin,7.556337216660968,7,Clearance steady state linear,mg / (ng/mL * hr)
+1,CLss_log,8.198593169406397,7,Clearance steady state linear up log down,mg / (ng/mL * hr)
+1,Ctau,0.181,7,Concentration at time tau,ng/mL
+1,Fluct_lin,768.0442499107409,7,Percent fluctuation linear,%
+1,Fluct_log,833.3246863620728,7,Percent fluctuation linear up log down,%
+1,Fluct_tau_lin,767.4639232125014,7,Percent fluctuation tau linear,%
+1,Fluct_tau_log,832.6950344066626,7,Percent fluctuation tau linear up log down,%
+1,intercept,3.3327145130370806,7,Terminal rate constant intercept,ln (ng/mL)
+1,kel,0.23639249613516086,7,Terminal rate constant,1 /hr
+1,kel_adjr2,0.887919863016772,7,Adjusted r2 for terminal rate regression,None
+1,kel_low,1.5,7,Lower time point for terminal rate constant estimate,hr
+1,kel_n,9,7,Number of time points used for terminal rate constant,None
+1,kel_r2,0.9019298801396755,7,r2 for terminal rate regression,None
+1,kel_span,7.673451342245101,7,Span,None
+1,kel_thalf,2.932187746617931,7,Half-life,hr
+1,kel_upper,24.0,7,Upper time point for terminal rate constant estimate,hr
+1,MRT_last_lin,2.2241228509304682,7,Mean residence time last linear,hr
+1,MRT_last_log,2.456858717431323,7,Mean residence time last linear up log down,hr
+1,MRT_lin,2.2241228509304682,7,Mean residence time linear,hr
+1,MRT_log,2.456858717431323,7,Mean residence time linear up log down,hr
+1,Swing_Tau,233.80662983425415,7,Swing tau,None
+1,Vss_lin,16.80622227291199,7,Volume of distribution steady state linear,mg / ng/mL
+1,Vss_log,20.142785098929004,7,Volume of distribution steady state linear up log down,mg / ng/mL
+1,Vz_lin,31.96521607158174,7,Volume of distribution lambda z linear,mg / ng/mL
+1,Vz_log,34.68212106326223,7,Volume of distribution lambda z linear up log down,mg / ng/mL
+1,Acc_index,1.0035369184756078,8,Accumulation index,None
+1,AUC_tau_lin,132.33925,8,Area under the curve tau linear,ng/mL * hr
+1,AUC_tau_lin_D,0.13233925,8,Dose normalized area under the curve tau linear,ng/mL * hr / mg
+1,AUC_tau_lin_extrap,0,8,Percent extrapolated area under the curve tau linear,%
+1,AUC_tau_log,121.9721456275654,8,Area under the curve tau linear up log down,ng/mL * hr
+1,AUC_tau_log_D,0.12197214562756539,8,Dose normalized area under the curve tau linear up log down,ng/mL * hr / mg
+1,AUC_tau_log_extrap,0,8,Percent extrapolated area under the curve tau linear up log down,%
+1,AUMC_tau_lin,426.67799999999994,8,Area under the moment curve tau linear,ng/mL * hr * hr
+1,AUMC_tau_log,421.64047489645225,8,Area under the moment curve tau linear up log down,ng/mL * hr * hr
+1,Cavg_lin,5.514135416666666,8,Average concentration Linear,ng/mL
+1,Cavg_log,5.082172734481891,8,Average concentration linear up log down,ng/mL
+1,CLss_lin,7.556337216660968,8,Clearance steady state linear,mg / (ng/mL * hr)
+1,CLss_log,8.198593169406397,8,Clearance steady state linear up log down,mg / (ng/mL * hr)
+1,Ctau,0.181,8,Concentration at time tau,ng/mL
+1,Fluct_lin,768.0442499107409,8,Percent fluctuation linear,%
+1,Fluct_log,833.3246863620728,8,Percent fluctuation linear up log down,%
+1,Fluct_tau_lin,767.4639232125014,8,Percent fluctuation tau linear,%
+1,Fluct_tau_log,832.6950344066626,8,Percent fluctuation tau linear up log down,%
+1,intercept,3.315127561916345,8,Terminal rate constant intercept,ln (ng/mL)
+1,kel,0.23533458734733234,8,Terminal rate constant,1 /hr
+1,kel_adjr2,0.901938150436961,8,Adjusted r2 for terminal rate regression,None
+1,kel_low,1.0,8,Lower time point for terminal rate constant estimate,hr
+1,kel_n,10,8,Number of time points used for terminal rate constant,None
+1,kel_r2,0.9128339114995209,8,r2 for terminal rate regression,None
+1,kel_span,7.808868968659881,8,Span,None
+1,kel_thalf,2.9453689250400044,8,Half-life,hr
+1,kel_upper,24.0,8,Upper time point for terminal rate constant estimate,hr
+1,MRT_last_lin,2.2241228509304682,8,Mean residence time last linear,hr
+1,MRT_last_log,2.456858717431323,8,Mean residence time last linear up log down,hr
+1,MRT_lin,2.2241228509304682,8,Mean residence time linear,hr
+1,MRT_log,2.456858717431323,8,Mean residence time linear up log down,hr
+1,Swing_Tau,233.80662983425415,8,Swing tau,None
+1,Vss_lin,16.80622227291199,8,Volume of distribution steady state linear,mg / ng/mL
+1,Vss_log,20.142785098929004,8,Volume of distribution steady state linear up log down,mg / ng/mL
+1,Vz_lin,32.10891055936671,8,Volume of distribution lambda z linear,mg / ng/mL
+1,Vz_log,34.838028960469046,8,Volume of distribution lambda z linear up log down,mg / ng/mL
+1,Acc_index,1.0036617131233803,9,Accumulation index,None
+1,AUC_tau_lin,132.33925,9,Area under the curve tau linear,ng/mL * hr
+1,AUC_tau_lin_D,0.13233925,9,Dose normalized area under the curve tau linear,ng/mL * hr / mg
+1,AUC_tau_lin_extrap,0,9,Percent extrapolated area under the curve tau linear,%
+1,AUC_tau_log,121.9721456275654,9,Area under the curve tau linear up log down,ng/mL * hr
+1,AUC_tau_log_D,0.12197214562756539,9,Dose normalized area under the curve tau linear up log down,ng/mL * hr / mg
+1,AUC_tau_log_extrap,0,9,Percent extrapolated area under the curve tau linear up log down,%
+1,AUMC_tau_lin,426.67799999999994,9,Area under the moment curve tau linear,ng/mL * hr * hr
+1,AUMC_tau_log,421.64047489645225,9,Area under the moment curve tau linear up log down,ng/mL * hr * hr
+1,Cavg_lin,5.514135416666666,9,Average concentration Linear,ng/mL
+1,Cavg_log,5.082172734481891,9,Average concentration linear up log down,ng/mL
+1,CLss_lin,7.556337216660968,9,Clearance steady state linear,mg / (ng/mL * hr)
+1,CLss_log,8.198593169406397,9,Clearance steady state linear up log down,mg / (ng/mL * hr)
+1,Ctau,0.181,9,Concentration at time tau,ng/mL
+1,Fluct_lin,768.0442499107409,9,Percent fluctuation linear,%
+1,Fluct_log,833.3246863620728,9,Percent fluctuation linear up log down,%
+1,Fluct_tau_lin,767.4639232125014,9,Percent fluctuation tau linear,%
+1,Fluct_tau_log,832.6950344066626,9,Percent fluctuation tau linear up log down,%
+1,intercept,3.2917719280486195,9,Terminal rate constant intercept,ln (ng/mL)
+1,kel,0.23389496666471427,9,Terminal rate constant,1 /hr
+1,kel_adjr2,0.9114302108704763,9,Adjusted r2 for terminal rate regression,None
+1,kel_low,0.5,9,Lower time point for terminal rate constant estimate,hr
+1,kel_n,11,9,Number of time points used for terminal rate constant,None
+1,kel_r2,0.9202871897834286,9,r2 for terminal rate regression,None
+1,kel_span,7.929819049657708,9,Span,None
+1,kel_thalf,2.963497635045579,9,Half-life,hr
+1,kel_upper,24.0,9,Upper time point for terminal rate constant estimate,hr
+1,MRT_last_lin,2.2241228509304682,9,Mean residence time last linear,hr
+1,MRT_last_log,2.456858717431323,9,Mean residence time last linear up log down,hr
+1,MRT_lin,2.2241228509304682,9,Mean residence time linear,hr
+1,MRT_log,2.456858717431323,9,Mean residence time linear up log down,hr
+1,Swing_Tau,233.80662983425415,9,Swing tau,None
+1,Vss_lin,16.80622227291199,9,Volume of distribution steady state linear,mg / ng/mL
+1,Vss_log,20.142785098929004,9,Volume of distribution steady state linear up log down,mg / ng/mL
+1,Vz_lin,32.30654051437067,9,Volume of distribution lambda z linear,mg / ng/mL
+1,Vz_log,35.05245660612691,9,Volume of distribution lambda z linear up log down,mg / ng/mL
+1,Acc_index,1.013857148245651,10,Accumulation index,None
+1,AUC_tau_lin,132.33925,10,Area under the curve tau linear,ng/mL * hr
+1,AUC_tau_lin_D,0.13233925,10,Dose normalized area under the curve tau linear,ng/mL * hr / mg
+1,AUC_tau_lin_extrap,0,10,Percent extrapolated area under the curve tau linear,%
+1,AUC_tau_log,121.9721456275654,10,Area under the curve tau linear up log down,ng/mL * hr
+1,AUC_tau_log_D,0.12197214562756539,10,Dose normalized area under the curve tau linear up log down,ng/mL * hr / mg
+1,AUC_tau_log_extrap,0,10,Percent extrapolated area under the curve tau linear up log down,%
+1,AUMC_tau_lin,426.67799999999994,10,Area under the moment curve tau linear,ng/mL * hr * hr
+1,AUMC_tau_log,421.64047489645225,10,Area under the moment curve tau linear up log down,ng/mL * hr * hr
+1,Cavg_lin,5.514135416666666,10,Average concentration Linear,ng/mL
+1,Cavg_log,5.082172734481891,10,Average concentration linear up log down,ng/mL
+1,CLss_lin,7.556337216660968,10,Clearance steady state linear,mg / (ng/mL * hr)
+1,CLss_log,8.198593169406397,10,Clearance steady state linear up log down,mg / (ng/mL * hr)
+1,Ctau,0.181,10,Concentration at time tau,ng/mL
+1,Fluct_lin,768.0442499107409,10,Percent fluctuation linear,%
+1,Fluct_log,833.3246863620728,10,Percent fluctuation linear up log down,%
+1,Fluct_tau_lin,767.4639232125014,10,Percent fluctuation tau linear,%
+1,Fluct_tau_log,832.6950344066626,10,Percent fluctuation tau linear up log down,%
+1,intercept,2.4231384615331324,10,Terminal rate constant intercept,ln (ng/mL)
+1,kel,0.17886316985312953,10,Terminal rate constant,1 /hr
+1,kel_adjr2,0.4301849018229734,10,Adjusted r2 for terminal rate regression,None
+1,kel_low,0.0,10,Lower time point for terminal rate constant estimate,hr
+1,kel_n,12,10,Number of time points used for terminal rate constant,None
+1,kel_r2,0.48198627438452135,10,r2 for terminal rate regression,None
+1,kel_span,6.193080195474968,10,Span,None
+1,kel_thalf,3.875292946720733,10,Half-life,hr
+1,kel_upper,24.0,10,Upper time point for terminal rate constant estimate,hr
+1,MRT_last_lin,2.2241228509304682,10,Mean residence time last linear,hr
+1,MRT_last_log,2.456858717431323,10,Mean residence time last linear up log down,hr
+1,MRT_lin,2.2241228509304682,10,Mean residence time linear,hr
+1,MRT_log,2.456858717431323,10,Mean residence time linear up log down,hr
+1,Swing_Tau,233.80662983425415,10,Swing tau,None
+1,Vss_lin,16.80622227291199,10,Volume of distribution steady state linear,mg / ng/mL
+1,Vss_log,20.142785098929004,10,Volume of distribution steady state linear up log down,mg / ng/mL
+1,Vz_lin,42.246468196139695,10,Volume of distribution lambda z linear,mg / ng/mL
+1,Vz_log,45.83723511183735,10,Volume of distribution lambda z linear up log down,mg / ng/mL
+1,Acc_index,1.008504050379876,11,Accumulation index,None
+1,AUC_tau_lin,132.33925,11,Area under the curve tau linear,ng/mL * hr
+1,AUC_tau_lin_D,0.13233925,11,Dose normalized area under the curve tau linear,ng/mL * hr / mg
+1,AUC_tau_lin_extrap,0,11,Percent extrapolated area under the curve tau linear,%
+1,AUC_tau_log,121.9721456275654,11,Area under the curve tau linear up log down,ng/mL * hr
+1,AUC_tau_log_D,0.12197214562756539,11,Dose normalized area under the curve tau linear up log down,ng/mL * hr / mg
+1,AUC_tau_log_extrap,0,11,Percent extrapolated area under the curve tau linear up log down,%
+1,AUMC_tau_lin,426.67799999999994,11,Area under the moment curve tau linear,ng/mL * hr * hr
+1,AUMC_tau_log,421.64047489645225,11,Area under the moment curve tau linear up log down,ng/mL * hr * hr
+1,Cavg_lin,5.514135416666666,11,Average concentration Linear,ng/mL
+1,Cavg_log,5.082172734481891,11,Average concentration linear up log down,ng/mL
+1,CLss_lin,7.556337216660968,11,Clearance steady state linear,mg / (ng/mL * hr)
+1,CLss_log,8.198593169406397,11,Clearance steady state linear up log down,mg / (ng/mL * hr)
+1,Ctau,0.181,11,Concentration at time tau,ng/mL
+1,Fluct_lin,768.0442499107409,11,Percent fluctuation linear,%
+1,Fluct_log,833.3246863620728,11,Percent fluctuation linear up log down,%
+1,Fluct_tau_lin,767.4639232125014,11,Percent fluctuation tau linear,%
+1,Fluct_tau_log,832.6950344066626,11,Percent fluctuation tau linear up log down,%
+1,intercept,2.5752891594738174,11,Terminal rate constant intercept,ln (ng/mL)
+1,kel,0.19898670034789884,11,Terminal rate constant,1 /hr
+1,kel_adjr2,0.9604970910098871,11,Adjusted r2 for terminal rate regression,None
+1,kel_low,12.0,11,Lower time point for terminal rate constant estimate,hr
+1,kel_n,3,11,Number of time points used for terminal rate constant,None
+1,kel_r2,0.9802485455049436,11,r2 for terminal rate regression,None
+1,kel_span,2.296617006358175,11,Span,None
+1,kel_thalf,3.4833844641279033,11,Half-life,hr
+1,kel_upper,20.0,11,Upper time point for terminal rate constant estimate,hr
+1,MRT_last_lin,2.2241228509304682,11,Mean residence time last linear,hr
+1,MRT_last_log,2.456858717431323,11,Mean residence time last linear up log down,hr
+1,MRT_lin,2.2241228509304682,11,Mean residence time linear,hr
+1,MRT_log,2.456858717431323,11,Mean residence time linear up log down,hr
+1,Swing_Tau,233.80662983425415,11,Swing tau,None
+1,Vss_lin,16.80622227291199,11,Volume of distribution steady state linear,mg / ng/mL
+1,Vss_log,20.142785098929004,11,Volume of distribution steady state linear up log down,mg / ng/mL
+1,Vz_lin,37.97408170219331,11,Volume of distribution lambda z linear,mg / ng/mL
+1,Vz_log,41.2017142606635,11,Volume of distribution lambda z linear up log down,mg / ng/mL
+1,Acc_index,1.0124289687099717,12,Accumulation index,None
+1,AUC_tau_lin,132.33925,12,Area under the curve tau linear,ng/mL * hr
+1,AUC_tau_lin_D,0.13233925,12,Dose normalized area under the curve tau linear,ng/mL * hr / mg
+1,AUC_tau_lin_extrap,0,12,Percent extrapolated area under the curve tau linear,%
+1,AUC_tau_log,121.9721456275654,12,Area under the curve tau linear up log down,ng/mL * hr
+1,AUC_tau_log_D,0.12197214562756539,12,Dose normalized area under the curve tau linear up log down,ng/mL * hr / mg
+1,AUC_tau_log_extrap,0,12,Percent extrapolated area under the curve tau linear up log down,%
+1,AUMC_tau_lin,426.67799999999994,12,Area under the moment curve tau linear,ng/mL * hr * hr
+1,AUMC_tau_log,421.64047489645225,12,Area under the moment curve tau linear up log down,ng/mL * hr * hr
+1,Cavg_lin,5.514135416666666,12,Average concentration Linear,ng/mL
+1,Cavg_log,5.082172734481891,12,Average concentration linear up log down,ng/mL
+1,CLss_lin,7.556337216660968,12,Clearance steady state linear,mg / (ng/mL * hr)
+1,CLss_log,8.198593169406397,12,Clearance steady state linear up log down,mg / (ng/mL * hr)
+1,Ctau,0.181,12,Concentration at time tau,ng/mL
+1,Fluct_lin,768.0442499107409,12,Percent fluctuation linear,%
+1,Fluct_log,833.3246863620728,12,Percent fluctuation linear up log down,%
+1,Fluct_tau_lin,767.4639232125014,12,Percent fluctuation tau linear,%
+1,Fluct_tau_log,832.6950344066626,12,Percent fluctuation tau linear up log down,%
+1,intercept,2.3040202535940817,12,Terminal rate constant intercept,ln (ng/mL)
+1,kel,0.18333657116252947,12,Terminal rate constant,1 /hr
+1,kel_adjr2,0.9787760297248067,12,Adjusted r2 for terminal rate regression,None
+1,kel_low,8.0,12,Lower time point for terminal rate constant estimate,hr
+1,kel_n,4,12,Number of time points used for terminal rate constant,None
+1,kel_r2,0.9858506864832045,12,r2 for terminal rate regression,None
+1,kel_span,3.1739851443572134,12,Span,None
+1,kel_thalf,3.780736031904209,12,Half-life,hr
+1,kel_upper,20.0,12,Upper time point for terminal rate constant estimate,hr
+1,MRT_last_lin,2.2241228509304682,12,Mean residence time last linear,hr
+1,MRT_last_log,2.456858717431323,12,Mean residence time last linear up log down,hr
+1,MRT_lin,2.2241228509304682,12,Mean residence time linear,hr
+1,MRT_log,2.456858717431323,12,Mean residence time linear up log down,hr
+1,Swing_Tau,233.80662983425415,12,Swing tau,None
+1,Vss_lin,16.80622227291199,12,Volume of distribution steady state linear,mg / ng/mL
+1,Vss_log,20.142785098929004,12,Volume of distribution steady state linear up log down,mg / ng/mL
+1,Vz_lin,41.21565691311096,12,Volume of distribution lambda z linear,mg / ng/mL
+1,Vz_log,44.71880933203596,12,Volume of distribution lambda z linear up log down,mg / ng/mL
+1,Acc_index,1.014968796936627,13,Accumulation index,None
+1,AUC_tau_lin,132.33925,13,Area under the curve tau linear,ng/mL * hr
+1,AUC_tau_lin_D,0.13233925,13,Dose normalized area under the curve tau linear,ng/mL * hr / mg
+1,AUC_tau_lin_extrap,0,13,Percent extrapolated area under the curve tau linear,%
+1,AUC_tau_log,121.9721456275654,13,Area under the curve tau linear up log down,ng/mL * hr
+1,AUC_tau_log_D,0.12197214562756539,13,Dose normalized area under the curve tau linear up log down,ng/mL * hr / mg
+1,AUC_tau_log_extrap,0,13,Percent extrapolated area under the curve tau linear up log down,%
+1,AUMC_tau_lin,426.67799999999994,13,Area under the moment curve tau linear,ng/mL * hr * hr
+1,AUMC_tau_log,421.64047489645225,13,Area under the moment curve tau linear up log down,ng/mL * hr * hr
+1,Cavg_lin,5.514135416666666,13,Average concentration Linear,ng/mL
+1,Cavg_log,5.082172734481891,13,Average concentration linear up log down,ng/mL
+1,CLss_lin,7.556337216660968,13,Clearance steady state linear,mg / (ng/mL * hr)
+1,CLss_log,8.198593169406397,13,Clearance steady state linear up log down,mg / (ng/mL * hr)
+1,Ctau,0.181,13,Concentration at time tau,ng/mL
+1,Fluct_lin,768.0442499107409,13,Percent fluctuation linear,%
+1,Fluct_log,833.3246863620728,13,Percent fluctuation linear up log down,%
+1,Fluct_tau_lin,767.4639232125014,13,Percent fluctuation tau linear,%
+1,Fluct_tau_log,832.6950344066626,13,Percent fluctuation tau linear up log down,%
+1,intercept,2.1779104861022422,13,Terminal rate constant intercept,ln (ng/mL)
+1,kel,0.17569355495090286,13,Terminal rate constant,1 /hr
+1,kel_adjr2,0.9835568627895368,13,Adjusted r2 for terminal rate regression,None
+1,kel_low,6.0,13,Lower time point for terminal rate constant estimate,hr
+1,kel_n,5,13,Number of time points used for terminal rate constant,None
+1,kel_r2,0.9876676470921526,13,r2 for terminal rate regression,None
+1,kel_span,3.5486110862134823,13,Span,None
+1,kel_thalf,3.945205507132254,13,Half-life,hr
+1,kel_upper,20.0,13,Upper time point for terminal rate constant estimate,hr
+1,MRT_last_lin,2.2241228509304682,13,Mean residence time last linear,hr
+1,MRT_last_log,2.456858717431323,13,Mean residence time last linear up log down,hr
+1,MRT_lin,2.2241228509304682,13,Mean residence time linear,hr
+1,MRT_log,2.456858717431323,13,Mean residence time linear up log down,hr
+1,Swing_Tau,233.80662983425415,13,Swing tau,None
+1,Vss_lin,16.80622227291199,13,Volume of distribution steady state linear,mg / ng/mL
+1,Vss_log,20.142785098929004,13,Volume of distribution steady state linear up log down,mg / ng/mL
+1,Vz_lin,43.0086192904035,13,Volume of distribution lambda z linear,mg / ng/mL
+1,Vz_log,46.66416574983342,13,Volume of distribution lambda z linear up log down,mg / ng/mL
+1,Acc_index,1.0085009627879087,14,Accumulation index,None
+1,AUC_tau_lin,132.33925,14,Area under the curve tau linear,ng/mL * hr
+1,AUC_tau_lin_D,0.13233925,14,Dose normalized area under the curve tau linear,ng/mL * hr / mg
+1,AUC_tau_lin_extrap,0,14,Percent extrapolated area under the curve tau linear,%
+1,AUC_tau_log,121.9721456275654,14,Area under the curve tau linear up log down,ng/mL * hr
+1,AUC_tau_log_D,0.12197214562756539,14,Dose normalized area under the curve tau linear up log down,ng/mL * hr / mg
+1,AUC_tau_log_extrap,0,14,Percent extrapolated area under the curve tau linear up log down,%
+1,AUMC_tau_lin,426.67799999999994,14,Area under the moment curve tau linear,ng/mL * hr * hr
+1,AUMC_tau_log,421.64047489645225,14,Area under the moment curve tau linear up log down,ng/mL * hr * hr
+1,Cavg_lin,5.514135416666666,14,Average concentration Linear,ng/mL
+1,Cavg_log,5.082172734481891,14,Average concentration linear up log down,ng/mL
+1,CLss_lin,7.556337216660968,14,Clearance steady state linear,mg / (ng/mL * hr)
+1,CLss_log,8.198593169406397,14,Clearance steady state linear up log down,mg / (ng/mL * hr)
+1,Ctau,0.181,14,Concentration at time tau,ng/mL
+1,Fluct_lin,768.0442499107409,14,Percent fluctuation linear,%
+1,Fluct_log,833.3246863620728,14,Percent fluctuation linear up log down,%
+1,Fluct_tau_lin,767.4639232125014,14,Percent fluctuation tau linear,%
+1,Fluct_tau_log,832.6950344066626,14,Percent fluctuation tau linear up log down,%
+1,intercept,2.5397417457079503,14,Terminal rate constant intercept,ln (ng/mL)
+1,kel,0.19900170357581043,14,Terminal rate constant,1 /hr
+1,kel_adjr2,0.9550163292524421,14,Adjusted r2 for terminal rate regression,None
+1,kel_low,4.0,14,Lower time point for terminal rate constant estimate,hr
+1,kel_n,6,14,Number of time points used for terminal rate constant,None
+1,kel_r2,0.9640130634019537,14,r2 for terminal rate regression,None
+1,kel_span,4.593580334036435,14,Span,None
+1,kel_thalf,3.483121843205168,14,Half-life,hr
+1,kel_upper,20.0,14,Upper time point for terminal rate constant estimate,hr
+1,MRT_last_lin,2.2241228509304682,14,Mean residence time last linear,hr
+1,MRT_last_log,2.456858717431323,14,Mean residence time last linear up log down,hr
+1,MRT_lin,2.2241228509304682,14,Mean residence time linear,hr
+1,MRT_log,2.456858717431323,14,Mean residence time linear up log down,hr
+1,Swing_Tau,233.80662983425415,14,Swing tau,None
+1,Vss_lin,16.80622227291199,14,Volume of distribution steady state linear,mg / ng/mL
+1,Vss_log,20.142785098929004,14,Volume of distribution steady state linear up log down,mg / ng/mL
+1,Vz_lin,37.97121874276998,14,Volume of distribution lambda z linear,mg / ng/mL
+1,Vz_log,41.19860796208266,14,Volume of distribution lambda z linear up log down,mg / ng/mL
+1,Acc_index,1.0026877042047424,15,Accumulation index,None
+1,AUC_tau_lin,132.33925,15,Area under the curve tau linear,ng/mL * hr
+1,AUC_tau_lin_D,0.13233925,15,Dose normalized area under the curve tau linear,ng/mL * hr / mg
+1,AUC_tau_lin_extrap,0,15,Percent extrapolated area under the curve tau linear,%
+1,AUC_tau_log,121.9721456275654,15,Area under the curve tau linear up log down,ng/mL * hr
+1,AUC_tau_log_D,0.12197214562756539,15,Dose normalized area under the curve tau linear up log down,ng/mL * hr / mg
+1,AUC_tau_log_extrap,0,15,Percent extrapolated area under the curve tau linear up log down,%
+1,AUMC_tau_lin,426.67799999999994,15,Area under the moment curve tau linear,ng/mL * hr * hr
+1,AUMC_tau_log,421.64047489645225,15,Area under the moment curve tau linear up log down,ng/mL * hr * hr
+1,Cavg_lin,5.514135416666666,15,Average concentration Linear,ng/mL
+1,Cavg_log,5.082172734481891,15,Average concentration linear up log down,ng/mL
+1,CLss_lin,7.556337216660968,15,Clearance steady state linear,mg / (ng/mL * hr)
+1,CLss_log,8.198593169406397,15,Clearance steady state linear up log down,mg / (ng/mL * hr)
+1,Ctau,0.181,15,Concentration at time tau,ng/mL
+1,Fluct_lin,768.0442499107409,15,Percent fluctuation linear,%
+1,Fluct_log,833.3246863620728,15,Percent fluctuation linear up log down,%
+1,Fluct_tau_lin,767.4639232125014,15,Percent fluctuation tau linear,%
+1,Fluct_tau_log,832.6950344066626,15,Percent fluctuation tau linear up log down,%
+1,intercept,3.2328262493237867,15,Terminal rate constant intercept,ln (ng/mL)
+1,kel,0.24673966683506446,15,Terminal rate constant,1 /hr
+1,kel_adjr2,0.8712151606438238,15,Adjusted r2 for terminal rate regression,None
+1,kel_low,2.0,15,Lower time point for terminal rate constant estimate,hr
+1,kel_n,7,15,Number of time points used for terminal rate constant,None
+1,kel_r2,0.8926793005365198,15,r2 for terminal rate regression,None
+1,kel_span,6.4074616872037655,15,Span,None
+1,kel_thalf,2.8092247568093147,15,Half-life,hr
+1,kel_upper,20.0,15,Upper time point for terminal rate constant estimate,hr
+1,MRT_last_lin,2.2241228509304682,15,Mean residence time last linear,hr
+1,MRT_last_log,2.456858717431323,15,Mean residence time last linear up log down,hr
+1,MRT_lin,2.2241228509304682,15,Mean residence time linear,hr
+1,MRT_log,2.456858717431323,15,Mean residence time linear up log down,hr
+1,Swing_Tau,233.80662983425415,15,Swing tau,None
+1,Vss_lin,16.80622227291199,15,Volume of distribution steady state linear,mg / ng/mL
+1,Vss_log,20.142785098929004,15,Volume of distribution steady state linear up log down,mg / ng/mL
+1,Vz_lin,30.624736239560846,15,Volume of distribution lambda z linear,mg / ng/mL
+1,Vz_log,33.22770624833026,15,Volume of distribution lambda z linear up log down,mg / ng/mL
+1,Acc_index,1.0016608516127898,16,Accumulation index,None
+1,AUC_tau_lin,132.33925,16,Area under the curve tau linear,ng/mL * hr
+1,AUC_tau_lin_D,0.13233925,16,Dose normalized area under the curve tau linear,ng/mL * hr / mg
+1,AUC_tau_lin_extrap,0,16,Percent extrapolated area under the curve tau linear,%
+1,AUC_tau_log,121.9721456275654,16,Area under the curve tau linear up log down,ng/mL * hr
+1,AUC_tau_log_D,0.12197214562756539,16,Dose normalized area under the curve tau linear up log down,ng/mL * hr / mg
+1,AUC_tau_log_extrap,0,16,Percent extrapolated area under the curve tau linear up log down,%
+1,AUMC_tau_lin,426.67799999999994,16,Area under the moment curve tau linear,ng/mL * hr * hr
+1,AUMC_tau_log,421.64047489645225,16,Area under the moment curve tau linear up log down,ng/mL * hr * hr
+1,Cavg_lin,5.514135416666666,16,Average concentration Linear,ng/mL
+1,Cavg_log,5.082172734481891,16,Average concentration linear up log down,ng/mL
+1,CLss_lin,7.556337216660968,16,Clearance steady state linear,mg / (ng/mL * hr)
+1,CLss_log,8.198593169406397,16,Clearance steady state linear up log down,mg / (ng/mL * hr)
+1,Ctau,0.181,16,Concentration at time tau,ng/mL
+1,Fluct_lin,768.0442499107409,16,Percent fluctuation linear,%
+1,Fluct_log,833.3246863620728,16,Percent fluctuation linear up log down,%
+1,Fluct_tau_lin,767.4639232125014,16,Percent fluctuation tau linear,%
+1,Fluct_tau_log,832.6950344066626,16,Percent fluctuation tau linear up log down,%
+1,intercept,3.5175449357611575,16,Terminal rate constant intercept,ln (ng/mL)
+1,kel,0.2667535109306009,16,Terminal rate constant,1 /hr
+1,kel_adjr2,0.8857821451228323,16,Adjusted r2 for terminal rate regression,None
+1,kel_low,1.5,16,Lower time point for terminal rate constant estimate,hr
+1,kel_n,8,16,Number of time points used for terminal rate constant,None
+1,kel_r2,0.9020989815338563,16,r2 for terminal rate regression,None
+1,kel_span,7.11961339614701,16,Span,None
+1,kel_thalf,2.598455698452928,16,Half-life,hr
+1,kel_upper,20.0,16,Upper time point for terminal rate constant estimate,hr
+1,MRT_last_lin,2.2241228509304682,16,Mean residence time last linear,hr
+1,MRT_last_log,2.456858717431323,16,Mean residence time last linear up log down,hr
+1,MRT_lin,2.2241228509304682,16,Mean residence time linear,hr
+1,MRT_log,2.456858717431323,16,Mean residence time linear up log down,hr
+1,Swing_Tau,233.80662983425415,16,Swing tau,None
+1,Vss_lin,16.80622227291199,16,Volume of distribution steady state linear,mg / ng/mL
+1,Vss_log,20.142785098929004,16,Volume of distribution steady state linear up log down,mg / ng/mL
+1,Vz_lin,28.32703940915267,16,Volume of distribution lambda z linear,mg / ng/mL
+1,Vz_log,30.734715133850138,16,Volume of distribution lambda z linear up log down,mg / ng/mL
+1,Acc_index,1.001839220305071,17,Accumulation index,None
+1,AUC_tau_lin,132.33925,17,Area under the curve tau linear,ng/mL * hr
+1,AUC_tau_lin_D,0.13233925,17,Dose normalized area under the curve tau linear,ng/mL * hr / mg
+1,AUC_tau_lin_extrap,0,17,Percent extrapolated area under the curve tau linear,%
+1,AUC_tau_log,121.9721456275654,17,Area under the curve tau linear up log down,ng/mL * hr
+1,AUC_tau_log_D,0.12197214562756539,17,Dose normalized area under the curve tau linear up log down,ng/mL * hr / mg
+1,AUC_tau_log_extrap,0,17,Percent extrapolated area under the curve tau linear up log down,%
+1,AUMC_tau_lin,426.67799999999994,17,Area under the moment curve tau linear,ng/mL * hr * hr
+1,AUMC_tau_log,421.64047489645225,17,Area under the moment curve tau linear up log down,ng/mL * hr * hr
+1,Cavg_lin,5.514135416666666,17,Average concentration Linear,ng/mL
+1,Cavg_log,5.082172734481891,17,Average concentration linear up log down,ng/mL
+1,CLss_lin,7.556337216660968,17,Clearance steady state linear,mg / (ng/mL * hr)
+1,CLss_log,8.198593169406397,17,Clearance steady state linear up log down,mg / (ng/mL * hr)
+1,Ctau,0.181,17,Concentration at time tau,ng/mL
+1,Fluct_lin,768.0442499107409,17,Percent fluctuation linear,%
+1,Fluct_log,833.3246863620728,17,Percent fluctuation linear up log down,%
+1,Fluct_tau_lin,767.4639232125014,17,Percent fluctuation tau linear,%
+1,Fluct_tau_log,832.6950344066626,17,Percent fluctuation tau linear up log down,%
+1,intercept,3.45871143295653,17,Terminal rate constant intercept,ln (ng/mL)
+1,kel,0.2625104614759136,17,Terminal rate constant,1 /hr
+1,kel_adjr2,0.8982059433891739,17,Adjusted r2 for terminal rate regression,None
+1,kel_low,1.0,17,Lower time point for terminal rate constant estimate,hr
+1,kel_n,9,17,Number of time points used for terminal rate constant,None
+1,kel_r2,0.9109302004655272,17,r2 for terminal rate regression,None
+1,kel_span,7.195728278102703,17,Span,None
+1,kel_thalf,2.6404554571382075,17,Half-life,hr
+1,kel_upper,20.0,17,Upper time point for terminal rate constant estimate,hr
+1,MRT_last_lin,2.2241228509304682,17,Mean residence time last linear,hr
+1,MRT_last_log,2.456858717431323,17,Mean residence time last linear up log down,hr
+1,MRT_lin,2.2241228509304682,17,Mean residence time linear,hr
+1,MRT_log,2.456858717431323,17,Mean residence time linear up log down,hr
+1,Swing_Tau,233.80662983425415,17,Swing tau,None
+1,Vss_lin,16.80622227291199,17,Volume of distribution steady state linear,mg / ng/mL
+1,Vss_log,20.142785098929004,17,Volume of distribution steady state linear up log down,mg / ng/mL
+1,Vz_lin,28.784899368112583,17,Volume of distribution lambda z linear,mg / ng/mL
+1,Vz_log,31.23149120728909,17,Volume of distribution lambda z linear up log down,mg / ng/mL
+1,Acc_index,1.002021821725393,18,Accumulation index,None
+1,AUC_tau_lin,132.33925,18,Area under the curve tau linear,ng/mL * hr
+1,AUC_tau_lin_D,0.13233925,18,Dose normalized area under the curve tau linear,ng/mL * hr / mg
+1,AUC_tau_lin_extrap,0,18,Percent extrapolated area under the curve tau linear,%
+1,AUC_tau_log,121.9721456275654,18,Area under the curve tau linear up log down,ng/mL * hr
+1,AUC_tau_log_D,0.12197214562756539,18,Dose normalized area under the curve tau linear up log down,ng/mL * hr / mg
+1,AUC_tau_log_extrap,0,18,Percent extrapolated area under the curve tau linear up log down,%
+1,AUMC_tau_lin,426.67799999999994,18,Area under the moment curve tau linear,ng/mL * hr * hr
+1,AUMC_tau_log,421.64047489645225,18,Area under the moment curve tau linear up log down,ng/mL * hr * hr
+1,Cavg_lin,5.514135416666666,18,Average concentration Linear,ng/mL
+1,Cavg_log,5.082172734481891,18,Average concentration linear up log down,ng/mL
+1,CLss_lin,7.556337216660968,18,Clearance steady state linear,mg / (ng/mL * hr)
+1,CLss_log,8.198593169406397,18,Clearance steady state linear up log down,mg / (ng/mL * hr)
+1,Ctau,0.181,18,Concentration at time tau,ng/mL
+1,Fluct_lin,768.0442499107409,18,Percent fluctuation linear,%
+1,Fluct_log,833.3246863620728,18,Percent fluctuation linear up log down,%
+1,Fluct_tau_lin,767.4639232125014,18,Percent fluctuation tau linear,%
+1,Fluct_tau_log,832.6950344066626,18,Percent fluctuation tau linear up log down,%
+1,intercept,3.405748194948691,18,Terminal rate constant intercept,ln (ng/mL)
+1,kel,0.2585740045969526,18,Terminal rate constant,1 /hr
+1,kel_adjr2,0.9062348801978791,18,Adjusted r2 for terminal rate regression,None
+1,kel_low,0.5,18,Lower time point for terminal rate constant estimate,hr
+1,kel_n,10,18,Number of time points used for terminal rate constant,None
+1,kel_r2,0.9166532268425592,18,r2 for terminal rate regression,None
+1,kel_span,7.27434696562906,18,Span,None
+1,kel_thalf,2.6806529977380187,18,Half-life,hr
+1,kel_upper,20.0,18,Upper time point for terminal rate constant estimate,hr
+1,MRT_last_lin,2.2241228509304682,18,Mean residence time last linear,hr
+1,MRT_last_log,2.456858717431323,18,Mean residence time last linear up log down,hr
+1,MRT_lin,2.2241228509304682,18,Mean residence time linear,hr
+1,MRT_log,2.456858717431323,18,Mean residence time linear up log down,hr
+1,Swing_Tau,233.80662983425415,18,Swing tau,None
+1,Vss_lin,16.80622227291199,18,Volume of distribution steady state linear,mg / ng/mL
+1,Vss_log,20.142785098929004,18,Volume of distribution steady state linear up log down,mg / ng/mL
+1,Vz_lin,29.223112464221867,18,Volume of distribution lambda z linear,mg / ng/mL
+1,Vz_log,31.70695051958452,18,Volume of distribution lambda z linear up log down,mg / ng/mL
+1,Acc_index,1.0119630348212,19,Accumulation index,None
+1,AUC_tau_lin,132.33925,19,Area under the curve tau linear,ng/mL * hr
+1,AUC_tau_lin_D,0.13233925,19,Dose normalized area under the curve tau linear,ng/mL * hr / mg
+1,AUC_tau_lin_extrap,0,19,Percent extrapolated area under the curve tau linear,%
+1,AUC_tau_log,121.9721456275654,19,Area under the curve tau linear up log down,ng/mL * hr
+1,AUC_tau_log_D,0.12197214562756539,19,Dose normalized area under the curve tau linear up log down,ng/mL * hr / mg
+1,AUC_tau_log_extrap,0,19,Percent extrapolated area under the curve tau linear up log down,%
+1,AUMC_tau_lin,426.67799999999994,19,Area under the moment curve tau linear,ng/mL * hr * hr
+1,AUMC_tau_log,421.64047489645225,19,Area under the moment curve tau linear up log down,ng/mL * hr * hr
+1,Cavg_lin,5.514135416666666,19,Average concentration Linear,ng/mL
+1,Cavg_log,5.082172734481891,19,Average concentration linear up log down,ng/mL
+1,CLss_lin,7.556337216660968,19,Clearance steady state linear,mg / (ng/mL * hr)
+1,CLss_log,8.198593169406397,19,Clearance steady state linear up log down,mg / (ng/mL * hr)
+1,Ctau,0.181,19,Concentration at time tau,ng/mL
+1,Fluct_lin,768.0442499107409,19,Percent fluctuation linear,%
+1,Fluct_log,833.3246863620728,19,Percent fluctuation linear up log down,%
+1,Fluct_tau_lin,767.4639232125014,19,Percent fluctuation tau linear,%
+1,Fluct_tau_log,832.6950344066626,19,Percent fluctuation tau linear up log down,%
+1,intercept,2.4475897104084874,19,Terminal rate constant intercept,ln (ng/mL)
+1,kel,0.18490941076657422,19,Terminal rate constant,1 /hr
+1,kel_adjr2,0.314154456580403,19,Adjusted r2 for terminal rate regression,None
+1,kel_low,0.0,19,Lower time point for terminal rate constant estimate,hr
+1,kel_n,11,19,Number of time points used for terminal rate constant,None
+1,kel_r2,0.3827390109223628,19,r2 for terminal rate regression,None
+1,kel_span,5.335357798532739,19,Span,None
+1,kel_thalf,3.7485770880258755,19,Half-life,hr
+1,kel_upper,20.0,19,Upper time point for terminal rate constant estimate,hr
+1,MRT_last_lin,2.2241228509304682,19,Mean residence time last linear,hr
+1,MRT_last_log,2.456858717431323,19,Mean residence time last linear up log down,hr
+1,MRT_lin,2.2241228509304682,19,Mean residence time linear,hr
+1,MRT_log,2.456858717431323,19,Mean residence time linear up log down,hr
+1,Swing_Tau,233.80662983425415,19,Swing tau,None
+1,Vss_lin,16.80622227291199,19,Volume of distribution steady state linear,mg / ng/mL
+1,Vss_log,20.142785098929004,19,Volume of distribution steady state linear up log down,mg / ng/mL
+1,Vz_lin,40.86507650062187,19,Volume of distribution lambda z linear,mg / ng/mL
+1,Vz_log,44.33843110211481,19,Volume of distribution lambda z linear up log down,mg / ng/mL
