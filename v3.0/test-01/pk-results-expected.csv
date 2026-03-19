@@ -1,0 +1,58 @@
+subject,paramcd,value,kel_group,param,units,maxp_value
+1,AUC_all_lin,2960,0,Area under the curve all linear,ng/mL * hr,2958.0000000000005
+1,AUC_all_lin_D,0.296,0,Dose normalized area under the curve all linear,ng/mL * hr / mg,0.29580000000000006
+1,AUC_all_log,2850,0,Area under the curve all linear up log down,ng/mL * hr,2847.145042800621
+1,AUC_all_log_D,0.285,0,Dose normalized area under the curve all linear up log down,ng/mL * hr / mg,0.2847145042800621
+1,AUC_last_lin,2960,0,Area under the curve last linear,ng/mL * hr,2958.0000000000005
+1,AUC_last_lin_D,0.296,0,Dose normalized area under the curve last linear,ng/mL * hr / mg,0.29580000000000006
+1,AUC_last_log,2850,0,Area under the curve last linear up log down,ng/mL * hr,2847.145042800621
+1,AUC_last_log_D,0.285,0,Dose normalized area under the curve last linear up log down,ng/mL * hr / mg,0.2847145042800621
+1,AUMC_all_lin,23800,0,Area under the moment curve all linear,ng/mL * hr * hr,23846.399999999998
+1,AUMC_all_log,23600,0,Area under the moment curve all linear up log down,ng/mL * hr * hr,23585.26076833172
+1,AUMC_last_lin,23800,0,Area under the moment curve last linear,ng/mL * hr * hr,23846.399999999998
+1,AUMC_last_log,23600,0,Area under the moment curve last linear up log down  ,ng/mL * hr * hr,23585.26076833172
+1,Clast,10.6,0,Last measurable concentration,ng/mL,10.6
+1,Cmax,449,0,Maximum observed concentration,ng/mL,449.0
+1,Cmax_D,0.0449,0,Dose normalized maximum concentration,ng/mL / mg,0.0449
+1,Cmin,0.00,0,Minimum observed concentration,ng/mL,0.0
+1,Conc_units,ng/mL,0,Concentration units,None,ng/mL
+1,Dose,10000,0,Dose,mg,10000.0
+1,Dose_time,0.00,0,Time of Dose Administration,hr,0.0
+1,Dose_units,mg,0,Dose Units,None,mg
+1,Frequency,single,0,Frequency,None,single
+1,N_blq,5,0,Number of BLQ observations,None,5
+1,N_miss,0.00,0,Number of missing observations,None,0
+1,N_samp,12,0,Number of total observations,None,12
+1,Route,ev,0,Route,None,ev
+1,Time_units,hr,0,Time units,None,hr
+1,Tlag,2,0,Lag time,hr,2.0
+1,Tlast,24,0,Time of Clast,hr,24.0
+1,Tmax,4,0,Time of Cmax,hr,4.0
+1,Tmin,0.00,0,Time of Cmin,hr,0.0
+1,AUC_inf_lin,3000,6,Area under the curve infinity linear,ng/mL * hr,2999.4435742277115
+1,AUC_inf_lin_D,0.3,6,Dose normalized area under the curve infinity linear,ng/mL * hr / mg,0.29994435742277115
+1,AUC_inf_lin_extrap,1.38,6,Percent extrapolated area under the curve infinity linear,%,1.3817087470425908
+1,AUC_inf_log,2890,6,Area under the curve infinity linear up log down,ng/mL * hr,2888.588617028332
+1,AUC_inf_log_D,0.289,6,Dose normalized area under the curve infinity linear up log down,ng/mL * hr / mg,0.2888588617028332
+1,AUC_inf_log_extrap,1.43,6,Percent extrapolated area under the curve infinity linear up log down,%,1.4347343883929986
+1,AUMC_inf_lin,25000,6,Area under the moment curve infinity linear,ng/mL * hr * hr,25003.080672480897
+1,AUMC_inf_lin_extrap,4.63,6,Percent extrapolated area under the moment curve infinity linear,%,4.626152623480418
+1,AUMC_inf_log,24700,6,Area under the moment curve infinity linear up log down,ng/mL * hr * hr,24741.941440812618
+1,AUMC_inf_log_extrap,4.67,6,Percent extrapolated area under the moment curve infinity linear up log down,%,4.674979428141879
+1,CL_f_lin,3.33,6,Apparent clearance linear,mg / (ng/mL * hr),3.333951698882941
+1,CL_f_log,3.46,6,Apparent clearance linear up log down,mg / (ng/mL * hr),3.461898292145045
+1,intercept,7.91,6,Terminal rate constant intercept,ln (ng/mL),7.912102054083123
+1,kel,0.256,6,Terminal rate constant,1 /hr,0.2557694455057961
+1,kel_adjr2,0.997,6,Adjusted r2 for terminal rate regression,None,0.9965185058253914
+1,kel_low,12,6,Lower time point for terminal rate constant estimate,hr,12.0
+1,kel_n,3,6,Number of time points used for terminal rate constant,None,3
+1,kel_r2,0.998,6,r2 for terminal rate regression,None,0.9982592529126957
+1,kel_span,2.95,6,Span,None,2.9519784851370563
+1,kel_thalf,2.71,6,Half-life,hr,2.710046851723098
+1,kel_upper,20,6,Upper time point for terminal rate constant estimate,hr,20.0
+1,MRT_last_lin,8.06,6,Mean residence time last linear,hr,8.061663286004055
+1,MRT_last_log,8.28,6,Mean residence time last linear up log down,hr,8.28382833111019
+1,MRT_lin,8.34,6,Mean residence time linear,hr,8.335906328532491
+1,MRT_log,8.57,6,Mean residence time linear up log down,hr,8.565408481830191
+1,Vz_lin,13,6,Volume of distribution lambda z linear,mg / ng/mL,13.034988179647083
+1,Vz_log,13.5,6,Volume of distribution lambda z linear up log down,mg / ng/mL,13.535230079179232

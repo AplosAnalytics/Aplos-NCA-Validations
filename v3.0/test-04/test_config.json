@@ -1,0 +1,14 @@
+{
+    "name": "v3.0-validation-test-04",
+    "description": "v3.0 validation test 04",
+    "test_type": "full-flow",
+    "files": {
+        "config": "config.json",
+        "input": "input.csv",
+        "expected_results": "pk-results-expected.csv",
+        "expected_results_all_kel_groups": "pk-results-all-expected.csv"
+    },
+    "test_options": {
+        "write_package_to_outputs": true
+    }
+}

@@ -1,0 +1,274 @@
+subject,paramcd,value,kel_group,param,units,maxp_value
+1,AUC_all_lin,2960,0,Area under the curve all linear,ng/mL * hr,2958.0000000000005
+1,AUC_all_lin_D,0.296,0,Dose normalized area under the curve all linear,ng/mL * hr / mg,0.29580000000000006
+1,AUC_all_log,2850,0,Area under the curve all linear up log down,ng/mL * hr,2847.145042800621
+1,AUC_all_log_D,0.285,0,Dose normalized area under the curve all linear up log down,ng/mL * hr / mg,0.2847145042800621
+1,AUC_last_lin,2960,0,Area under the curve last linear,ng/mL * hr,2958.0000000000005
+1,AUC_last_lin_D,0.296,0,Dose normalized area under the curve last linear,ng/mL * hr / mg,0.29580000000000006
+1,AUC_last_log,2850,0,Area under the curve last linear up log down,ng/mL * hr,2847.145042800621
+1,AUC_last_log_D,0.285,0,Dose normalized area under the curve last linear up log down,ng/mL * hr / mg,0.2847145042800621
+1,AUMC_all_lin,23800,0,Area under the moment curve all linear,ng/mL * hr * hr,23846.399999999998
+1,AUMC_all_log,23600,0,Area under the moment curve all linear up log down,ng/mL * hr * hr,23585.26076833172
+1,AUMC_last_lin,23800,0,Area under the moment curve last linear,ng/mL * hr * hr,23846.399999999998
+1,AUMC_last_log,23600,0,Area under the moment curve last linear up log down  ,ng/mL * hr * hr,23585.26076833172
+1,Clast,10.6,0,Last measurable concentration,ng/mL,10.6
+1,Cmax,449,0,Maximum observed concentration,ng/mL,449.0
+1,Cmax_D,0.0449,0,Dose normalized maximum concentration,ng/mL / mg,0.0449
+1,Cmin,0.00,0,Minimum observed concentration,ng/mL,0.0
+1,Conc_units,ng/mL,0,Concentration units,,ng/mL
+1,Dose,10000,0,Dose,mg,10000.0
+1,Dose_time,0.00,0,Time of Dose Administration,hr,0.0
+1,Dose_units,mg,0,Dose Units,,mg
+1,Frequency,single,0,Frequency,,single
+1,N_blq,5,0,Number of BLQ observations,,5
+1,N_miss,0.00,0,Number of missing observations,,0
+1,N_samp,12,0,Number of total observations,,12
+1,Route,ev,0,Route,,ev
+1,Time_units,hr,0,Time units,,hr
+1,Tlag,2,0,Lag time,hr,2.0
+1,Tlast,24,0,Time of Clast,hr,24.0
+1,Tmax,4,0,Time of Cmax,hr,4.0
+1,Tmin,0.00,0,Time of Cmin,hr,0.0
+1,AUC_inf_lin,3020.0,1,Area under the curve infinity linear,ng/mL * hr,3018.1586781622395
+1,AUC_inf_lin_D,0.302,1,Dose normalized area under the curve infinity linear,ng/mL * hr / mg,0.3018158678162239
+1,AUC_inf_lin_extrap,1.99,1,Percent extrapolated area under the curve infinity linear,%,1.9932244980197624
+1,AUC_inf_log,2910.0,1,Area under the curve infinity linear up log down,ng/mL * hr,2907.30372096286
+1,AUC_inf_log_D,0.291,1,Dose normalized area under the curve infinity linear up log down,ng/mL * hr / mg,0.290730372096286
+1,AUC_inf_log_extrap,2.07,1,Percent extrapolated area under the curve infinity linear up log down,%,2.0692257822418174
+1,AUMC_inf_lin,25600.0,1,Area under the moment curve infinity linear,ng/mL * hr * hr,25631.629649311464
+1,AUMC_inf_lin_extrap,6.96,1,Percent extrapolated area under the moment curve infinity linear,%,6.964947893429871
+1,AUMC_inf_log,25400.0,1,Area under the moment curve infinity linear up log down,ng/mL * hr * hr,25370.490417643185
+1,AUMC_inf_log_extrap,7.04,1,Percent extrapolated area under the moment curve infinity linear up log down,%,7.036638314527724
+1,CL_f_lin,3.31,1,Apparent clearance linear,mg / (ng/mL * hr),3.313278414536181
+1,CL_f_log,3.44,1,Apparent clearance linear up log down,mg / (ng/mL * hr),3.439613112278525
+1,intercept,6.51,1,Terminal rate constant intercept,ln (ng/mL),6.508244376182043
+1,kel,0.176,1,Terminal rate constant,1 /hr,0.1762006799985422
+1,kel_adjr2,0.923,1,Adjusted r2 for terminal rate regression,,0.9229999514333322
+1,kel_low,16.0,1,Lower time point for terminal rate constant estimate,hr,16.0
+1,kel_n,3,1,Number of time points used for terminal rate constant,,3.0
+1,kel_r2,0.961,1,r2 for terminal rate regression,,0.961499975716666
+1,kel_span,2.03,1,Span,,2.0336307778812803
+1,kel_thalf,3.93,1,Half-life,hr,3.9338507692801183
+1,kel_upper,24.0,1,Upper time point for terminal rate constant estimate,hr,24.0
+1,MRT_last_lin,8.06,1,Mean residence time last linear,hr,8.061663286004055
+1,MRT_last_log,8.28,1,Mean residence time last linear up log down,hr,8.28382833111019
+1,MRT_lin,8.49,1,Mean residence time linear,hr,8.492472524644924
+1,MRT_log,8.73,1,Mean residence time linear up log down,hr,8.726467150546217
+1,Vz_lin,18.8,1,Volume of distribution lambda z linear,mg / ng/mL,18.804004698299646
+1,Vz_log,19.5,1,Volume of distribution lambda z linear up log down,mg / ng/mL,19.52099794567752
+1,AUC_inf_lin,3010.0,2,Area under the curve infinity linear,ng/mL * hr,3008.0642221083554
+1,AUC_inf_lin_D,0.301,2,Dose normalized area under the curve infinity linear,ng/mL * hr / mg,0.3008064222108355
+1,AUC_inf_lin_extrap,1.66,2,Percent extrapolated area under the curve infinity linear,%,1.6643335518037927
+1,AUC_inf_log,2900.0,2,Area under the curve infinity linear up log down,ng/mL * hr,2897.209264908976
+1,AUC_inf_log_D,0.29,2,Dose normalized area under the curve infinity linear up log down,ng/mL * hr / mg,0.2897209264908976
+1,AUC_inf_log_extrap,1.73,2,Percent extrapolated area under the curve infinity linear up log down,%,1.728015394494744
+1,AUMC_inf_lin,25300.0,2,Area under the moment curve infinity linear,ng/mL * hr * hr,25284.39664525285
+1,AUMC_inf_lin_extrap,5.69,2,Percent extrapolated area under the moment curve infinity linear,%,5.687288747397649
+1,AUMC_inf_log,25000.0,2,Area under the moment curve infinity linear up log down,ng/mL * hr * hr,25023.25741358457
+1,AUMC_inf_log_extrap,5.75,2,Percent extrapolated area under the moment curve infinity linear up log down,%,5.746640501217071
+1,CL_f_lin,3.32,2,Apparent clearance linear,mg / (ng/mL * hr),3.324397107782157
+1,CL_f_log,3.45,2,Apparent clearance linear up log down,mg / (ng/mL * hr),3.451597411730001
+1,intercept,7.27,2,Terminal rate constant intercept,ln (ng/mL),7.266161550991717
+1,kel,0.212,2,Terminal rate constant,1 /hr,0.2117280475677457
+1,kel_adjr2,0.957,2,Adjusted r2 for terminal rate regression,,0.9565042523864054
+1,kel_low,12.0,2,Lower time point for terminal rate constant estimate,hr,12.0
+1,kel_n,4,2,Number of time points used for terminal rate constant,,4.0
+1,kel_r2,0.971,2,r2 for terminal rate regression,,0.9710028349242702
+1,kel_span,3.67,2,Span,,3.665508050917071
+1,kel_thalf,3.27,2,Half-life,hr,3.2737617359748334
+1,kel_upper,24.0,2,Upper time point for terminal rate constant estimate,hr,24.0
+1,MRT_last_lin,8.06,2,Mean residence time last linear,hr,8.061663286004055
+1,MRT_last_log,8.28,2,Mean residence time last linear up log down,hr,8.28382833111019
+1,MRT_lin,8.41,2,Mean residence time linear,hr,8.405537507949544
+1,MRT_log,8.64,2,Mean residence time linear up log down,hr,8.637021052178207
+1,Vz_lin,15.7,2,Volume of distribution lambda z linear,mg / ng/mL,15.701259922677291
+1,Vz_log,16.3,2,Volume of distribution lambda z linear up log down,mg / ng/mL,16.302032023535325
+1,AUC_inf_lin,3010.0,3,Area under the curve infinity linear,ng/mL * hr,3007.0943528633115
+1,AUC_inf_lin_D,0.301,3,Dose normalized area under the curve infinity linear,ng/mL * hr / mg,0.3007094352863311
+1,AUC_inf_lin_extrap,1.63,3,Percent extrapolated area under the curve infinity linear,%,1.6326176402334778
+1,AUC_inf_log,2900.0,3,Area under the curve infinity linear up log down,ng/mL * hr,2896.239395663932
+1,AUC_inf_log_D,0.29,3,Dose normalized area under the curve infinity linear up log down,ng/mL * hr / mg,0.2896239395663932
+1,AUC_inf_log_extrap,1.7,3,Percent extrapolated area under the curve infinity linear up log down,%,1.6951068664010356
+1,AUMC_inf_lin,25300.0,3,Area under the moment curve infinity linear,ng/mL * hr * hr,25252.047061461664
+1,AUMC_inf_lin_extrap,5.57,3,Percent extrapolated area under the moment curve infinity linear,%,5.5664677720599185
+1,AUMC_inf_log,25000.0,3,Area under the moment curve infinity linear up log down,ng/mL * hr * hr,24990.907829793385
+1,AUMC_inf_log_extrap,5.62,3,Percent extrapolated area under the moment curve infinity linear up log down,%,5.624633850979588
+1,CL_f_lin,3.33,3,Apparent clearance linear,mg / (ng/mL * hr),3.3254693157459942
+1,CL_f_log,3.45,3,Apparent clearance linear up log down,mg / (ng/mL * hr),3.4527532547797577
+1,intercept,7.35,3,Terminal rate constant intercept,ln (ng/mL),7.349816191361818
+1,kel,0.216,3,Terminal rate constant,1 /hr,0.2159107795862508
+1,kel_adjr2,0.981,3,Adjusted r2 for terminal rate regression,,0.9806400091487008
+1,kel_low,8.0,3,Lower time point for terminal rate constant estimate,hr,8.0
+1,kel_n,5,3,Number of time points used for terminal rate constant,,5.0
+1,kel_r2,0.985,3,r2 for terminal rate regression,,0.9854800068615256
+1,kel_span,4.98,3,Span,,4.983894575736865
+1,kel_thalf,3.21,3,Half-life,hr,3.210340780058417
+1,kel_upper,24.0,3,Upper time point for terminal rate constant estimate,hr,24.0
+1,MRT_last_lin,8.06,3,Mean residence time last linear,hr,8.061663286004055
+1,MRT_last_log,8.28,3,Mean residence time last linear up log down,hr,8.28382833111019
+1,MRT_lin,8.4,3,Mean residence time linear,hr,8.397490766266456
+1,MRT_log,8.63,3,Mean residence time linear up log down,hr,8.628743834922004
+1,Vz_lin,15.4,3,Volume of distribution lambda z linear,mg / ng/mL,15.402053209749797
+1,Vz_log,16.0,3,Volume of distribution lambda z linear up log down,mg / ng/mL,15.991574211330526
+1,AUC_inf_lin,3010.0,4,Area under the curve infinity linear,ng/mL * hr,3013.2975884702773
+1,AUC_inf_lin_D,0.301,4,Dose normalized area under the curve infinity linear,ng/mL * hr / mg,0.3013297588470277
+1,AUC_inf_lin_extrap,1.84,4,Percent extrapolated area under the curve infinity linear,%,1.8351187311157309
+1,AUC_inf_log,2900.0,4,Area under the curve infinity linear up log down,ng/mL * hr,2902.442631270898
+1,AUC_inf_log_D,0.29,4,Dose normalized area under the curve infinity linear up log down,ng/mL * hr / mg,0.2902442631270898
+1,AUC_inf_log_extrap,1.91,4,Percent extrapolated area under the curve infinity linear up log down,%,1.9052086637131365
+1,AUMC_inf_lin,25500.0,4,Area under the moment curve infinity linear,ng/mL * hr * hr,25462.01601862891
+1,AUMC_inf_lin_extrap,6.35,4,Percent extrapolated area under the moment curve infinity linear,%,6.345200699924426
+1,AUMC_inf_log,25200.0,4,Area under the moment curve infinity linear up log down,ng/mL * hr * hr,25200.87678696063
+1,AUMC_inf_log_extrap,6.41,4,Percent extrapolated area under the moment curve infinity linear up log down,%,6.410951620004185
+1,CL_f_lin,3.32,4,Apparent clearance linear,mg / (ng/mL * hr),3.3186234370819556
+1,CL_f_log,3.45,4,Apparent clearance linear up log down,mg / (ng/mL * hr),3.445373869671037
+1,intercept,6.88,4,Terminal rate constant intercept,ln (ng/mL),6.884779051771564
+1,kel,0.192,4,Terminal rate constant,1 /hr,0.1916900952325917
+1,kel_adjr2,0.949,4,Adjusted r2 for terminal rate regression,,0.94853020559613
+1,kel_low,6.0,4,Lower time point for terminal rate constant estimate,hr,6.0
+1,kel_n,6,4,Number of time points used for terminal rate constant,,6.0
+1,kel_r2,0.959,4,r2 for terminal rate regression,,0.958824164476904
+1,kel_span,4.98,4,Span,,4.977906296032677
+1,kel_thalf,3.62,4,Half-life,hr,3.615978069805322
+1,kel_upper,24.0,4,Upper time point for terminal rate constant estimate,hr,24.0
+1,MRT_last_lin,8.06,4,Mean residence time last linear,hr,8.061663286004055
+1,MRT_last_log,8.28,4,Mean residence time last linear up log down,hr,8.28382833111019
+1,MRT_lin,8.45,4,Mean residence time linear,hr,8.449884311477808
+1,MRT_log,8.68,4,Mean residence time linear up log down,hr,8.682644237459355
+1,Vz_lin,17.3,4,Volume of distribution lambda z linear,mg / ng/mL,17.312440859582367
+1,Vz_log,18.0,4,Volume of distribution lambda z linear up log down,mg / ng/mL,17.973666638803174
+1,AUC_inf_lin,3010.0,5,Area under the curve infinity linear,ng/mL * hr,3013.381616891622
+1,AUC_inf_lin_D,0.301,5,Dose normalized area under the curve infinity linear,ng/mL * hr / mg,0.3013381616891621
+1,AUC_inf_lin_extrap,1.84,5,Percent extrapolated area under the curve infinity linear,%,1.837856067787026
+1,AUC_inf_log,2900.0,5,Area under the curve infinity linear up log down,ng/mL * hr,2902.5266596922424
+1,AUC_inf_log_D,0.29,5,Dose normalized area under the curve infinity linear up log down,ng/mL * hr / mg,0.2902526659692242
+1,AUC_inf_log_extrap,1.91,5,Percent extrapolated area under the curve infinity linear up log down,%,1.908048517200997
+1,AUMC_inf_lin,25500.0,5,Area under the moment curve infinity linear,ng/mL * hr * hr,25464.910077996115
+1,AUMC_inf_lin_extrap,6.36,5,Percent extrapolated area under the moment curve infinity linear,%,6.355844466125364
+1,AUMC_inf_log,25200.0,5,Area under the moment curve infinity linear up log down,ng/mL * hr * hr,25203.770846327836
+1,AUMC_inf_log_extrap,6.42,5,Percent extrapolated area under the moment curve infinity linear up log down,%,6.421698117573274
+1,CL_f_lin,3.32,5,Apparent clearance linear,mg / (ng/mL * hr),3.318530896964603
+1,CL_f_log,3.45,5,Apparent clearance linear up log down,mg / (ng/mL * hr),3.445274125771616
+1,intercept,6.88,5,Terminal rate constant intercept,ln (ng/mL),6.879468801571903
+1,kel,0.191,5,Terminal rate constant,1 /hr,0.1913992511403841
+1,kel_adjr2,0.964,5,Adjusted r2 for terminal rate regression,,0.963571392498514
+1,kel_low,4.0,5,Lower time point for terminal rate constant estimate,hr,4.0
+1,kel_n,7,5,Number of time points used for terminal rate constant,,7.0
+1,kel_r2,0.97,5,r2 for terminal rate regression,,0.969642827082095
+1,kel_span,5.52,5,Span,,5.52261500900187
+1,kel_thalf,3.62,5,Half-life,hr,3.6214727927621193
+1,kel_upper,24.0,5,Upper time point for terminal rate constant estimate,hr,24.0
+1,MRT_last_lin,8.06,5,Mean residence time last linear,hr,8.061663286004055
+1,MRT_last_log,8.28,5,Mean residence time last linear up log down,hr,8.28382833111019
+1,MRT_lin,8.45,5,Mean residence time linear,hr,8.45060908822554
+1,MRT_log,8.68,5,Mean residence time linear up log down,hr,8.683389956873029
+1,Vz_lin,17.3,5,Volume of distribution lambda z linear,mg / ng/mL,17.338264790443645
+1,Vz_log,18.0,5,Volume of distribution lambda z linear up log down,mg / ng/mL,18.00045770944337
+1,AUC_inf_lin,3000.0,6,Area under the curve infinity linear,ng/mL * hr,2999.4435742277115
+1,AUC_inf_lin_D,0.3,6,Dose normalized area under the curve infinity linear,ng/mL * hr / mg,0.2999443574227711
+1,AUC_inf_lin_extrap,1.38,6,Percent extrapolated area under the curve infinity linear,%,1.3817087470425908
+1,AUC_inf_log,2890.0,6,Area under the curve infinity linear up log down,ng/mL * hr,2888.588617028332
+1,AUC_inf_log_D,0.289,6,Dose normalized area under the curve infinity linear up log down,ng/mL * hr / mg,0.2888588617028332
+1,AUC_inf_log_extrap,1.43,6,Percent extrapolated area under the curve infinity linear up log down,%,1.4347343883929986
+1,AUMC_inf_lin,25000.0,6,Area under the moment curve infinity linear,ng/mL * hr * hr,25003.080672480897
+1,AUMC_inf_lin_extrap,4.63,6,Percent extrapolated area under the moment curve infinity linear,%,4.626152623480418
+1,AUMC_inf_log,24700.0,6,Area under the moment curve infinity linear up log down,ng/mL * hr * hr,24741.941440812618
+1,AUMC_inf_log_extrap,4.67,6,Percent extrapolated area under the moment curve infinity linear up log down,%,4.674979428141879
+1,CL_f_lin,3.33,6,Apparent clearance linear,mg / (ng/mL * hr),3.333951698882941
+1,CL_f_log,3.46,6,Apparent clearance linear up log down,mg / (ng/mL * hr),3.461898292145045
+1,intercept,7.91,6,Terminal rate constant intercept,ln (ng/mL),7.912102054083123
+1,kel,0.256,6,Terminal rate constant,1 /hr,0.2557694455057961
+1,kel_adjr2,0.997,6,Adjusted r2 for terminal rate regression,,0.9965185058253914
+1,kel_low,12.0,6,Lower time point for terminal rate constant estimate,hr,12.0
+1,kel_n,3,6,Number of time points used for terminal rate constant,,3.0
+1,kel_r2,0.998,6,r2 for terminal rate regression,,0.9982592529126956
+1,kel_span,2.95,6,Span,,2.9519784851370563
+1,kel_thalf,2.71,6,Half-life,hr,2.710046851723098
+1,kel_upper,20.0,6,Upper time point for terminal rate constant estimate,hr,20.0
+1,MRT_last_lin,8.06,6,Mean residence time last linear,hr,8.061663286004055
+1,MRT_last_log,8.28,6,Mean residence time last linear up log down,hr,8.28382833111019
+1,MRT_lin,8.34,6,Mean residence time linear,hr,8.335906328532491
+1,MRT_log,8.57,6,Mean residence time linear up log down,hr,8.565408481830191
+1,Vz_lin,13.0,6,Volume of distribution lambda z linear,mg / ng/mL,13.034988179647083
+1,Vz_log,13.5,6,Volume of distribution lambda z linear up log down,mg / ng/mL,13.535230079179232
+1,AUC_inf_lin,3000.0,7,Area under the curve infinity linear,ng/mL * hr,3002.162463032349
+1,AUC_inf_lin_D,0.3,7,Dose normalized area under the curve infinity linear,ng/mL * hr / mg,0.3002162463032348
+1,AUC_inf_lin_extrap,1.47,7,Percent extrapolated area under the curve infinity linear,%,1.4710217576880067
+1,AUC_inf_log,2890.0,7,Area under the curve infinity linear up log down,ng/mL * hr,2891.307505832969
+1,AUC_inf_log_D,0.289,7,Dose normalized area under the curve infinity linear up log down,ng/mL * hr / mg,0.2891307505832969
+1,AUC_inf_log_extrap,1.53,7,Percent extrapolated area under the curve infinity linear up log down,%,1.5274218651338178
+1,AUMC_inf_lin,25100.0,7,Area under the moment curve infinity linear,ng/mL * hr * hr,25090.29186193517
+1,AUMC_inf_lin_extrap,4.96,7,Percent extrapolated area under the moment curve infinity linear,%,4.957661986476526
+1,AUMC_inf_log,24800.0,7,Area under the moment curve infinity linear up log down,ng/mL * hr * hr,24829.15263026689
+1,AUMC_inf_log_extrap,5.01,7,Percent extrapolated area under the moment curve infinity linear up log down,%,5.009803920649557
+1,CL_f_lin,3.33,7,Apparent clearance linear,mg / (ng/mL * hr),3.3309323273263005
+1,CL_f_log,3.46,7,Apparent clearance linear up log down,mg / (ng/mL * hr),3.458642838862986
+1,intercept,7.64,7,Terminal rate constant intercept,ln (ng/mL),7.63916097110115
+1,kel,0.24,7,Terminal rate constant,1 /hr,0.2400228445645285
+1,kel_adjr2,0.995,7,Adjusted r2 for terminal rate regression,,0.99452801940372
+1,kel_low,8.0,7,Lower time point for terminal rate constant estimate,hr,8.0
+1,kel_n,4,7,Number of time points used for terminal rate constant,,4.0
+1,kel_r2,0.996,7,r2 for terminal rate regression,,0.9963520129358132
+1,kel_span,4.16,7,Span,,4.155357210639693
+1,kel_thalf,2.89,7,Half-life,hr,2.887838371458003
+1,kel_upper,20.0,7,Upper time point for terminal rate constant estimate,hr,20.0
+1,MRT_last_lin,8.06,7,Mean residence time last linear,hr,8.061663286004055
+1,MRT_last_log,8.28,7,Mean residence time last linear up log down,hr,8.28382833111019
+1,MRT_lin,8.36,7,Mean residence time linear,hr,8.357406426497185
+1,MRT_log,8.59,7,Mean residence time linear up log down,hr,8.587517093970865
+1,Vz_lin,13.9,7,Volume of distribution lambda z linear,mg / ng/mL,13.877563751773645
+1,Vz_log,14.4,7,Volume of distribution lambda z linear up log down,mg / ng/mL,14.409640237111486
+1,AUC_inf_lin,3010.0,8,Area under the curve infinity linear,ng/mL * hr,3011.4096659385946
+1,AUC_inf_lin_D,0.301,8,Dose normalized area under the curve infinity linear,ng/mL * hr / mg,0.3011409665938594
+1,AUC_inf_lin_extrap,1.77,8,Percent extrapolated area under the curve infinity linear,%,1.773576891337611
+1,AUC_inf_log,2900.0,8,Area under the curve infinity linear up log down,ng/mL * hr,2900.554708739215
+1,AUC_inf_log_D,0.29,8,Dose normalized area under the curve infinity linear up log down,ng/mL * hr / mg,0.2900554708739215
+1,AUC_inf_log_extrap,1.84,8,Percent extrapolated area under the curve infinity linear up log down,%,1.8413604052243395
+1,AUMC_inf_lin,25400.0,8,Area under the moment curve infinity linear,ng/mL * hr * hr,25397.344474570804
+1,AUMC_inf_lin_extrap,6.11,8,Percent extrapolated area under the moment curve infinity linear,%,6.106719055307911
+1,AUMC_inf_log,25100.0,8,Area under the moment curve infinity linear up log down,ng/mL * hr * hr,25136.205242902524
+1,AUMC_inf_log_extrap,6.17,8,Percent extrapolated area under the moment curve infinity linear up log down,%,6.170161564099784
+1,CL_f_lin,3.32,8,Apparent clearance linear,mg / (ng/mL * hr),3.3207039590487617
+1,CL_f_log,3.45,8,Apparent clearance linear up log down,mg / (ng/mL * hr),3.4476164058793786
+1,intercept,6.95,8,Terminal rate constant intercept,ln (ng/mL),6.953472183079567
+1,kel,0.198,8,Terminal rate constant,1 /hr,0.1984659483207962
+1,kel_adjr2,0.911,8,Adjusted r2 for terminal rate regression,,0.910712078693155
+1,kel_low,6.0,8,Lower time point for terminal rate constant estimate,hr,6.0
+1,kel_n,5,8,Number of time points used for terminal rate constant,,5.0
+1,kel_r2,0.933,8,r2 for terminal rate regression,,0.9330340590198662
+1,kel_span,4.01,8,Span,,4.008561751988332
+1,kel_thalf,3.49,8,Half-life,hr,3.4925244679231153
+1,kel_upper,20.0,8,Upper time point for terminal rate constant estimate,hr,20.0
+1,MRT_last_lin,8.06,8,Mean residence time last linear,hr,8.061663286004055
+1,MRT_last_log,8.28,8,Mean residence time last linear up log down,hr,8.28382833111019
+1,MRT_lin,8.43,8,Mean residence time linear,hr,8.433706234603246
+1,MRT_log,8.67,8,Mean residence time linear up log down,hr,8.6659993576982
+1,Vz_lin,16.7,8,Volume of distribution lambda z linear,mg / ng/mL,16.731857465449163
+1,Vz_log,17.4,8,Volume of distribution lambda z linear up log down,mg / ng/mL,17.37132457758811
+1,AUC_inf_lin,3010.0,9,Area under the curve infinity linear,ng/mL * hr,3011.9361734750105
+1,AUC_inf_lin_D,0.301,9,Dose normalized area under the curve infinity linear,ng/mL * hr / mg,0.301193617347501
+1,AUC_inf_lin_extrap,1.79,9,Percent extrapolated area under the curve infinity linear,%,1.790747557999584
+1,AUC_inf_log,2900.0,9,Area under the curve infinity linear up log down,ng/mL * hr,2901.081216275631
+1,AUC_inf_log_D,0.29,9,Dose normalized area under the curve infinity linear up log down,ng/mL * hr / mg,0.2901081216275631
+1,AUC_inf_log_extrap,1.86,9,Percent extrapolated area under the curve infinity linear up log down,%,1.8591748887420807
+1,AUMC_inf_lin,25400.0,9,Area under the moment curve infinity linear,ng/mL * hr * hr,25415.312579355552
+1,AUMC_inf_lin_extrap,6.17,9,Percent extrapolated area under the moment curve infinity linear,%,6.173099679403337
+1,AUMC_inf_log,25200.0,9,Area under the moment curve infinity linear up log down,ng/mL * hr * hr,25154.173347687272
+1,AUMC_inf_log_extrap,6.24,9,Percent extrapolated area under the moment curve infinity linear up log down,%,6.237186003569474
+1,CL_f_lin,3.32,9,Apparent clearance linear,mg / (ng/mL * hr),3.320123476741055
+1,CL_f_log,3.45,9,Apparent clearance linear up log down,mg / (ng/mL * hr),3.4469907094975665
+1,intercept,6.92,9,Terminal rate constant intercept,ln (ng/mL),6.923396966115277
+1,kel,0.197,9,Terminal rate constant,1 /hr,0.196528587718802
+1,kel_adjr2,0.94,9,Adjusted r2 for terminal rate regression,,0.9396158202164744
+1,kel_low,4.0,9,Lower time point for terminal rate constant estimate,hr,4.0
+1,kel_n,6,9,Number of time points used for terminal rate constant,,6.0
+1,kel_r2,0.952,9,r2 for terminal rate regression,,0.9516926561731796
+1,kel_span,4.54,9,Span,,4.5364931023172375
+1,kel_thalf,3.53,9,Half-life,hr,3.526953450414642
+1,kel_upper,20.0,9,Upper time point for terminal rate constant estimate,hr,20.0
+1,MRT_last_lin,8.06,9,Mean residence time last linear,hr,8.061663286004055
+1,MRT_last_log,8.28,9,Mean residence time last linear up log down,hr,8.28382833111019
+1,MRT_lin,8.44,9,Mean residence time linear,hr,8.43819759634306
+1,MRT_log,8.67,9,Mean residence time linear up log down,hr,8.670620183456933
+1,Vz_lin,16.9,9,Volume of distribution lambda z linear,mg / ng/mL,16.893844886788532
+1,Vz_log,17.5,9,Volume of distribution lambda z linear up log down,mg / ng/mL,17.53938574284982
