@@ -44,6 +44,18 @@
         "kel_n",
         "kel_lower"
       ]
+    },
+    "diagnostics": {
+      "suppressions": [
+        {
+          "code": "CALC_WARNING",
+          "item_type": "profile",
+          "unique_id": "2",
+          "reason": "Steady-state EV fixture: tau=24 with no samples after tau, so tau interpolation is not performed. This is expected for this test case and does not indicate a problem.",
+          "acknowledged_by": "aplos-validation",
+          "acknowledged_on": "2026-09-24"
+        }
+      ]
     }
   }
 }
